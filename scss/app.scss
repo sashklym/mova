@@ -501,6 +501,7 @@ padding-top: 5px;
     margin: 26px 0;
 
     .block_one{
+    display: block;
     padding: 0;
     width: 315px;
     background: #ffffff;
@@ -536,7 +537,34 @@ padding-top: 5px;
                 color:rgb(77,190,237);
             }
         }
+
+        .info_min{
+            width: 100%;
+            padding: 10px 7px 15px;
+            font-family: PragmaticaC;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            background: #4dbeee;
+            @include border-radius_bot(3px);
+            color: #ffffff;
+
+            span{
+                display: block;
+                color: #ffcb05;
+                margin: 10px 7px 5px 0px;
+
+            }
+        }
     }
+    .block_one:hover{
+        .name1, .name2, .info_min{
+            background: #009edb;
+
+        }
+        text-decoration: none;
+    }
+
     .block_one:last-child{
     margin-right: 0px;
     }
@@ -544,9 +572,10 @@ padding-top: 5px;
 
 .cloud {
     background-color:rgb(209,210,212);
-    height: 279px;
+    height:422px;
     margin: 26px 0 0px;
     @include border-radius(3px);
+
 }
 
 .line {
