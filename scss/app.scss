@@ -506,6 +506,7 @@ padding-top: 5px;
     width: 315px;
     background: #ffffff;
     margin-right: 26px;
+
     @include border-radius(3px);
 
         img{
@@ -540,6 +541,7 @@ padding-top: 5px;
 
         .info_min{
             width: 100%;
+            min-height: 162px;
             padding: 10px 7px 15px;
             font-family: PragmaticaC;
             font-size: 15px;
@@ -572,7 +574,7 @@ padding-top: 5px;
 
 .cloud {
     background-color:rgb(209,210,212);
-    height:422px;
+    height:464px;
     margin: 26px 0 0px;
     @include border-radius(3px);
 
