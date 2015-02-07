@@ -85,12 +85,12 @@ var exersice = {
     //--------------- show now quetions --------------------
     show_now_quetions: function(index_now){
 
-        /*
+
 		var this_element = $('#name_go_1');
         $('html,body').animate({
             scrollTop: (this_element.length) ? this_element.offset().top : 0
         }, 1000);
-		*/
+
 
         var answers_variant = '';
         var one_answers = answers[index_now].split('|');
@@ -143,12 +143,12 @@ var exersice = {
 
     //----------------- verify answer --------------------
     verify_answer: function(index_now){
-        /*
+
 		var this_element = $('#name_go_2');
         $('html,body').animate({
             scrollTop: (this_element.length) ? this_element.offset().top : 0
         }, 1000);
-		*/
+
         $('.info').html('');
         if($('input[name=radio]:checked').length > 0){
             $('#verify').hide();
@@ -175,10 +175,11 @@ var exersice = {
 
     //------------------ show result ------------------------
     show_result: function(){
+        var id = $("#id-resourse").attr("data-id");
         $.ajax({
             url: '/ajax',
             type: "POST",
-            data: { action: 'exercies_one_verify', points: sum_correct },
+            data: { action: 'exercies_one_verify', points: sum_correct, id:id  },
             dataType: "text",
             timeout: 30000,
             cache:false,
@@ -189,7 +190,7 @@ var exersice = {
 
             },
             success: function (answer){
-                //alert(answer);
+                alert(answer);
                 exersice.ajaxPreload(jQuery('.exercies_one'),false);
                 $('.man').hide();
                 $('.quetion').html('Всього правильних відповідей &ndash; '+sum_correct);
