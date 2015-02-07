@@ -86,10 +86,10 @@ var exersice = {
     show_now_quetions: function(index_now){
 
 
-		var this_element = $('#name_go_1');
-        $('html,body').animate({
-            scrollTop: (this_element.length) ? this_element.offset().top : 0
-        }, 1000);
+//		var this_element = $('#name_go_1');
+//        $('html,body').animate({
+//            scrollTop: (this_element.length) ? this_element.offset().top : 0
+//        }, 1000);
 
 
         var answers_variant = '';
@@ -144,10 +144,10 @@ var exersice = {
     //----------------- verify answer --------------------
     verify_answer: function(index_now){
 
-		var this_element = $('#name_go_2');
-        $('html,body').animate({
-            scrollTop: (this_element.length) ? this_element.offset().top : 0
-        }, 1000);
+//		var this_element = $('#name_go_2');
+//        $('html,body').animate({
+//            scrollTop: (this_element.length) ? this_element.offset().top : 0
+//        }, 1000);
 
         $('.info').html('');
         if($('input[name=radio]:checked').length > 0){
@@ -190,7 +190,7 @@ var exersice = {
 
             },
             success: function (answer){
-                alert(answer);
+                //alert(answer);
                 exersice.ajaxPreload(jQuery('.exercies_one'),false);
                 $('.man').hide();
                 $('.quetion').html('Всього правильних відповідей &ndash; '+sum_correct);
@@ -205,6 +205,8 @@ var exersice = {
                 else{
                     $('.man_negative').fadeIn();
                 }
+
+                $('#share-fb_exer').on( 'click', fb_share_exer);
 
                 $('.number_step li').click(function(){
                     $('.man').hide();
@@ -274,6 +276,26 @@ var exersice = {
 
 };
 
+function fb_share_exer() {
+		var data_url = 'http://ukr-mova.in.ua/'+$('#data_input').attr('data_url');
+		FB.ui({
+			method: 'feed',
+			link: data_url,
+            name: "Мій результат: "+sum_correct+"/"+num.length+". Перевір себе!",
+            caption: 'UKR-MOVA.IN.UA | Мова – ДНК націЇ',
+            description: $('#data_input').attr('data_descript'),
+            picture: 'http://ukr-mova.in.ua/'+$('#data_input').attr('data_img')
+		}, function(response){
+		//console.log('url', data_url);
+		  if (response != null){
+			AjaxForm.Message.success("Ви успішно поділились результатом проходження вправи!");
+		  }
+		  else {
+				AjaxForm.Message.error("Помилка під час SHARE :(");
+		  }
+		});
+
+}
 
 
 
