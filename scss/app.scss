@@ -845,6 +845,9 @@ padding-top: 5px;
     .program_soc{
         margin-top: 25px;
     }
+    .help_3{
+        margin-top: 25px;
+    }
     .send_me{
         background: $blue;
         width: 140px;
@@ -1135,7 +1138,34 @@ line-height: 110%;
         position: relative;
         color: #4dbeee;
         font-size: 17px;
+        line-height: normal;
+    }
+}
 
+.help_4{
+    .navbar-form {
+    width: 85% !important;
+    padding: 17px 0px !important;
+    margin: 0 auto;
+    float: none!important;
+
+        .search_button{
+            width: 23px;
+            height: 23px;
+            background: none;
+            background-repeat: no-repeat;
+            border: none;
+            font-family: 'icomoon';
+            float: right;
+            margin-right: 10px;
+            display: block;
+            margin-top: -27px;
+            z-index: 2;
+            position: relative;
+            color: #4dbeee;
+            font-size: 17px;
+            line-height: normal;
+        }
     }
 }
 
@@ -1731,7 +1761,7 @@ background-color: #d1d3d4;
         .navbar-nav, .navbar-biblioteka .navbar-nav {
           height: auto;
           border-radius: 3px;
-          width:70%;
+          width:80%;
 
             li{
                 text-decoration: none;
