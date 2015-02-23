@@ -1684,6 +1684,61 @@ background-color: #d1d3d4;
 
 .user_info_register{height: auto!important;}
 
+#scrollUp {
+    bottom: 50px;
+    right: 50px;
+    width: 43px;
+    height: 42px;
+    opacity: 0.6;
+    background: url(../images/Up.png) no-repeat;
+}
+#scrollUp:hover {
+    opacity: 1;
+}
+
+.market {
+    width: 1009px;
+    margin: 0 auto;
+    h1{
+        color: #4dbfee;
+        font: 400 24px / 25px PragmaticaC;
+        font-weight: bold;
+    }
+    .info{
+        margin-bottom: 40px;
+        .text{
+            float: left;
+            color: #707070;
+            font: 400 18px / 23px PragmaticaC;
+            line-height: 140%;
+            span{
+                color: #4dbfee;
+                font: 400 18px / 23px PragmaticaC;
+            }
+        }
+
+        .sell{
+            margin-top: -30px;
+            float: right;
+            background-color: #4dbeee;
+            width: 179px;
+            height: 60px;
+            @include border-radius(2px);
+            color: #ffffff;
+            font: 400 24px / 19px PragmaticaC;
+            border: none;
+
+        }
+        .sell:hover{
+            background-color:#009edb;
+        }
+
+    }
+    img{
+        margin-top: 20px;
+    }
+}
+
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 
@@ -1856,6 +1911,27 @@ background-color: #d1d3d4;
 }
 
 @media screen and (max-width: 960px){
+
+    .market {
+        width: 90%;
+
+        .info{
+            .text{
+                float: none;
+            }
+            .sell{
+                float: none;
+                margin: 15px 0 0;
+            }
+        }
+
+    }
+
+    #scrollUp {
+        bottom: 0px;
+        right: 50%;
+        margin-right: -22px;
+    }
     .icon-reg_in:before{
         font-size: 25px;
         margin: 0 25px 0 16px;
@@ -1962,6 +2038,7 @@ background-color: #d1d3d4;
 }
 
 @media screen and (max-width: 748px){
+
     .cloud{
         margin-top: 0px;
     }
@@ -2276,3 +2353,4 @@ background-color: #d1d3d4;
 
     }
 }
+
