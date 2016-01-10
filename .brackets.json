@@ -1,0 +1,20 @@
+{
+    "path": {
+        "scss/app.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "includePaths": [
+                    "../bower_components/bourbon/dist/"
+                ],
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false,
+            "bigeyex.bracketsSFTPUpload.C:/Users/sashklym/Dropbox/webrains/templates_mova/|changed_files": {
+                "C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss": 1
+            }
+        }
+    }
+}

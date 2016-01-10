@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'PragmaticaLightC';
+    src: url('../fonts/PragmaticaLightC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PragmaticaLightC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/PragmaticaLightC.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/PragmaticaLightC.svg')  format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PragmaticaC';
+    src: url('../fonts/PragmaticaC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PragmaticaC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/PragmaticaC.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/PragmaticaC.svg')  format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-sm9jq8');
+	src:url('../fonts/icomoon.eot?#iefix-sm9jq8') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-sm9jq8') format('woff'),
+		url('../fonts/icomoon.ttf?-sm9jq8') format('truetype'),
+		url('../fonts/icomoon.svg?-sm9jq8#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body{
+background: url(../images/Bg.png);
+}
+
+.navbar {
+    background: #ffffff;
+    height: 117px;
+    top: 0px;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-brand {
+    background: url(../images/Mova.png);
+    width: 149px;
+    height: 80px;
+    margin-top: 14px;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav {
+background-color: #4dbeee;
+padding-left: 29px;
+height: 66px;
+border-radius: 3px;
+
+margin-left: 29px;
+
+margin-top: 24px;
+}
+
+.navbar-nav > li > a {
+font: 400 24px / 20px PragmaticaLightC;
+line-height: 66px;
+padding: 0;
+/* padding-right: 43px; */
+color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+margin-left: 0px;
+}
+.container{
+/* padding: 0; */
+}
+.breadcrumb {
+padding: 0;
+margin-bottom: 20px;
+list-style: none;
+background: none;
+border-radius: none;
+}
+a {
+color: #4dbfee;
+font-size: 16px;
+    font-weight: 700;
+text-decoration: none;
+}
+a:hover {
+color: #4dbfee;
+font-size: 16px;
+    font-weight: 700;
+}
+.breadcrumb > .active {
+color: #707070;
+font-size: 16px;
+font-weight: 700;
+}
+
+.index_last_img {
+    margin-right: 5px;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #ffffff;
+background-color: transparent;
+}
+.right_block {
+
+}
+.right_block a{
+    color: #ffffff;
+
+}
+.right_block div a:hover {
+color: #ffffff;
+text-decoration: none;
+font-weight: normal;
+}
+.row {
+/* margin-right: 0; */
+/* margin-left: -15px; */
+}
+.navbar-nav li.active, .navbar-nav li:hover {
+    /* text-decoration: underline; */
+    border-bottom: 1.5px solid #ffffff;
+    padding-bottom: 2px;
+    height: 50px;
+}
+
+.icon-user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ffcb08;
+    margin: 20px 7px;
+    display: block;
+}
+.icon-user:before {
+	content: "\75";
+	margin: 5px;
+	font-size: 70px;
+	display: block;
+	padding-top: 6px;
+	color: #4ac0ee;
+}
+.icon-user:hover {
+text-decoration: none;
+}
+
+.name_user {
+    color: #6d6e71;
+    font: 700 24px / 20px PragmaticaLightC;
+    font-weight: 700;
+    margin: 30px 0 10px -25px;
+}
+
+.level_user {
+    margin-left: -25px;
+    color: #959595;
+    font: 400 18px / 20px PragmaticaLightC;
+}
+
+.smakoluku {
+    background: #4dbeee;
+    padding: 14px 0;
+}
+
+.icon-smakoluk {
+    color: #ffffff;
+}
+.icon-smakoluk span{
+    display: block;
+    font: 400 18px / 18px PragmaticaC;
+}
+.icon-smakoluk:before {
+	content: "\e605";
+	display: block;
+	font-size: 34px;
+	float: left;
+	margin: 0 10px 0 15px;
+}
+.trening {
+    background:#ffcb05;
+    padding: 14px 0;
+}
+.icon-trening {
+    color: #ffffff;
+}
+.icon-trening span{
+    display: block;
+    font: 400 18px / 18px PragmaticaC;
+}
+.icon-trening:before {
+	content: "\74";
+	display: block;
+	font-size: 34px;
+	float: left;
+	margin: 0 10px 0 15px;
+}
+.settings {
+    background:#d1d3d4;
+    padding: 10px 0;
+    border-right: 1px solid #dfe1e3;
+}
+.icon-settings {
+    color: #ffffff;
+}
+.icon-settings span{
+    display: block;
+    font: 400 18px / 18px PragmaticaC;
+
+    padding-top: 8px;
+}
+.icon-settings:before {
+	content: "\73";
+	display: block;
+	font-size: 34px;
+	float: left;
+	margin: 0 10px 0 15px;
+}
+.out {
+    background:#d1d3d4;
+    padding: 10px 0;
+}
+.icon-out {
+    color: #ffffff;
+}
+.icon-out span{
+    display: block;
+    font: 400 18px / 18px PragmaticaC;
+    padding-top: 8px;
+}
+.icon-out:before {
+	content: "\6f";
+	display: block;
+	font-size: 34px;
+	float: left;
+	margin: 0 10px 0 15px;
+}
+.program_soc {
+    margin-top: 36px;
+}
+.program_soc .download{
+    background: #4dbeee;
+    height: 64px;
+    padding-top: 12px;
+}
+.program_soc .download a{
+    font: 400 18px / 18px PragmaticaC;
+    line-height: 15px;
+    color: #ffffff;
+
+}
+.program_soc .social{
+    background:#ffcb05;
+    height: 64px;
+    padding-top: 12px;
+}
+.program_soc .social a{
+    font: 400 18px / 18px PragmaticaC;
+    line-height: 15px;
+    color: #ffffff;
+
+}
+
+.user_info {
+    background:#ffffff;
+}
+.for_mobile {
+    border-bottom: 1px solid #ECEDF0;
+}
+.for_mobile div{
+height: 82px;
+background: #ffffff;
+color: #4dbeee;
+border-right: 1px solid #ECEDF0;
+}
+.for_mobile div:last-child{
+border-right: 0;
+}
+.icon-apple:before {
+	content: "\e601";
+	display: block;
+	font-size: 37px;
+	float: left;
+	margin: 20px 10px 0 15px;
+    color: #4dbeee;
+}
+.icon-android:before {
+	content: "\e600";
+	display: block;
+	font-size: 37px;
+	float: left;
+	margin: 20px 10px 0 15px;
+    color: #4dbeee;
+}
+.icon-fb:before {
+	content: "\66";
+	display: block;
+	font-size: 37px;
+	float: left;
+	margin: 20px 10px 0 15px;
+    color: #4dbeee;
+}
+.icon-vkontakte:before {
+	content: "\76";
+	display: block;
+	font-size: 37px;
+	float: left;
+	margin: 20px 10px 0 15px;
+    color: #4dbeee;
+}
+.icon-windows:before {
+	content: "\77";
+	display: block;
+	font-size: 37px;
+	float: left;
+	margin: 20px 10px 0 15px;
+    color: #4dbeee;
+}
+.icon-g:before {
+	content: "\e603";
+	display: block;
+	font-size: 37px;
+	float: left;
+	margin: 20px 10px 0 15px;
+    color: #4dbeee;
+}
+
+
+
+footer {
+border-top: 1px solid #ffffff;
+margin-top: 50px;
+padding-top: 5px;
+}

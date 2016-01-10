@@ -1,0 +1,2287 @@
+@font-face {
+  font-family: 'PragmaticaLightC';
+  src: url("../fonts/PragmaticaLightC.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/PragmaticaLightC.woff") format("woff"), url("../fonts/PragmaticaLightC.ttf") format("truetype"), url("../fonts/PragmaticaLightC.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PragmaticaC';
+  src: url("../fonts/PragmaticaC.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/PragmaticaC.woff") format("woff"), url("../fonts/PragmaticaC.ttf") format("truetype"), url("../fonts/PragmaticaC.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/myriadpro-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/myriadpro-regular.woff") format("woff"), url("../fonts/myriadpro-regular.ttf") format("truetype"), url("../fonts/myriadpro-regular.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-sm9jq8");
+  src: url("../fonts/icomoon.eot?#iefix-sm9jq8") format("embedded-opentype"), url("../fonts/icomoon.woff?-sm9jq8") format("woff"), url("../fonts/icomoon.ttf?-sm9jq8") format("truetype"), url("../fonts/icomoon.svg?-sm9jq8#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 61, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 78, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+body {
+  background: url(../images/Bg.png); }
+
+/* line 82, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px; }
+
+/* line 86, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px; }
+
+/* line 90, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #4dbeed; }
+
+/* line 95, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar {
+  background: #ffffff;
+  height: 117px;
+  top: 0px;
+  box-shadow: none;
+  border: none; }
+
+/* line 103, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+#myModal {
+  display: none; }
+
+/* line 106, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar-brand {
+  background: url(../images/Mova.png);
+  width: 149px;
+  height: 80px;
+  margin-top: 14px;
+  background-repeat: no-repeat; }
+
+/* line 114, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar-nav {
+  padding-left: 0px;
+  height: 66px;
+  border-radius: 3px;
+  margin-left: 25px; }
+  /* line 121, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-nav li {
+    margin-right: 34px; }
+
+/* line 126, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar-nav > li > a {
+  font: 400 24px/20px PragmaticaLightC;
+  line-height: 66px;
+  padding: 0;
+  /* padding-right: 43px; */
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 23px; }
+
+/* line 135, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 0px; }
+
+/* line 138, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container {
+  /* padding: 0; */ }
+
+/* line 141, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.breadcrumb {
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  background: none;
+  border-radius: none; }
+
+/* line 148, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+a {
+  color: #4dbeed;
+  font-size: 16px;
+  text-decoration: none; }
+
+/* line 153, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+a:hover {
+  color: #4dbfee;
+  font-size: 16px; }
+
+/* line 157, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.breadcrumb > .active {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 700; }
+
+/* line 163, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.index_last_img {
+  margin-right: 11px;
+  width: 61.1%; }
+
+/* line 168, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent; }
+
+/* line 173, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_block .col-md-2 {
+  width: 16.666666666%;
+  height: 64px;
+  float: left; }
+  /* line 177, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .col-md-2 a {
+    text-align: center; }
+  /* line 180, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .col-md-2 a:before {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    float: left;
+    color: #4dbeee; }
+
+/* line 191, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_block .user_info.no {
+  height: 120px; }
+  /* line 193, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .user_info.no .name_user {
+    margin-top: 50px;
+    display: block; }
+
+/* line 199, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_block .user_info.no.register_no {
+  background: #4dbeed; }
+  /* line 202, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .user_info.no.register_no .name_user {
+    margin-top: 50px;
+    color: #ffffff; }
+  /* line 206, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .user_info.no.register_no .icon-user:before {
+    content: "\75"; }
+
+/* line 212, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_block a {
+  color: #ffffff; }
+
+/* line 216, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_block div a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: normal; }
+
+/* line 221, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.row {
+  /* margin-right: 0; */
+  /* margin-left: -15px; */ }
+
+/* line 225, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar-nav li.active, .navbar-nav li:hover {
+  /* text-decoration: underline; */
+  border-bottom: 1.5px solid #ffffff;
+  padding-bottom: 2px;
+  height: 50px; }
+
+/* line 232, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-user {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #ffcb08;
+  margin: 15px 7px;
+  display: block; }
+
+/* line 240, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-user:before {
+  content: "\75";
+  margin: 5px;
+  font-size: 75px;
+  display: block;
+  padding-top: 6px;
+  color: #4ac0ee; }
+
+/* line 248, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-user:hover {
+  text-decoration: none; }
+
+/* line 252, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.name_user {
+  display: block;
+  color: #6d6e71 !important;
+  font: 700 24px/20px PragmaticaLightC;
+  font-weight: 700;
+  margin: 20px 0 7px -25px; }
+
+/* line 260, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.name_user:hover {
+  color: #6d6e71 !important;
+  font: 700 24px/20px PragmaticaLightC;
+  font-weight: 700; }
+
+/* line 265, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.copy_bootom {
+  color: #959595;
+  font: 400 14px/20px PragmaticaLightC;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+/* line 271, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.level_user {
+  margin-left: -25px;
+  color: #959595;
+  font: 400 18px/20px PragmaticaLightC; }
+
+/* line 277, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.smakoluku {
+  background: #4dbeee;
+  padding: 14px 0; }
+
+/* line 282, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-smakoluk {
+  display: block;
+  color: #4dbfee;
+  margin-left: -25px;
+  margin-top: 7px; }
+
+/* line 288, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-smakoluk span {
+  font: 400 18px/18px PragmaticaC;
+  color: #4dbfee; }
+
+/* line 292, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-smakoluk:before {
+  content: "\e600";
+  display: block;
+  font-size: 29px;
+  float: right;
+  margin: -10px 70px 0 15px;
+  color: #4ac0ee; }
+
+/* line 300, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.trening {
+  background: #ffcb05;
+  padding: 14px 0; }
+
+/* line 304, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-trening {
+  color: #ffffff; }
+
+/* line 307, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-trening span {
+  display: block;
+  font: 400 18px/18px PragmaticaC; }
+
+/* line 311, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-trening:before {
+  content: "\74";
+  display: block;
+  font-size: 34px;
+  float: left;
+  margin: 0 10px 0 15px; }
+
+/* line 318, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.settings {
+  background: #d1d3d4;
+  padding: 8px 0;
+  border-right: 1px solid #dfe1e3;
+  -webkit-border-radius: 0px 0px 0 3px;
+  -moz-border-radius: 0px 0px 0 3px;
+  -ms-border-radius: 0px 0px 0 3px;
+  border-radius: 0px 0px 0 3px;
+  height: 48px; }
+
+/* line 328, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.reg_in {
+  background: #d1d3d4;
+  padding: 8px 0;
+  border-right: 1px solid #dfe1e3;
+  -webkit-border-radius: 0px 0px 0 3px;
+  -moz-border-radius: 0px 0px 0 3px;
+  -ms-border-radius: 0px 0px 0 3px;
+  border-radius: 0px 0px 0 3px;
+  height: 48px; }
+
+/* line 338, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-reg_in {
+  color: #4dbeed; }
+
+/* line 341, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-reg_in:before {
+  content: "\e604";
+  display: block;
+  font-size: 30px;
+  float: left;
+  margin: 0 30px 0 50px;
+  color: #4dbeed; }
+
+/* line 349, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-reg_in span {
+  display: block;
+  font: 400 18px/18px PragmaticaC;
+  padding-top: 5px;
+  font-size: 24px; }
+
+/* line 356, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-settings {
+  color: #ffffff; }
+
+/* line 359, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-settings span {
+  display: block;
+  font: 400 18px/18px PragmaticaC;
+  padding-top: 8px; }
+
+/* line 364, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_block span:hover {
+  color: #009edb; }
+
+/* line 367, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-settings:before {
+  content: "\73";
+  display: block;
+  font-size: 30px;
+  float: left;
+  margin: 0 10px 0 15px; }
+
+/* line 374, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.out {
+  background: #d1d3d4;
+  padding: 10px 0;
+  -webkit-border-radius: 0px 0px 3px 0;
+  -moz-border-radius: 0px 0px 3px 0;
+  -ms-border-radius: 0px 0px 3px 0;
+  border-radius: 0px 0px 3px 0;
+  height: 48px; }
+
+/* line 383, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-out {
+  color: #ffffff; }
+
+/* line 386, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-out span {
+  display: block;
+  font: 400 18px/18px PragmaticaC;
+  padding-top: 8px; }
+
+/* line 391, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-out:before {
+  content: "\6f";
+  display: block;
+  font-size: 30px;
+  float: left;
+  margin: 0 10px 0 15px; }
+
+/* line 398, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.program_soc {
+  margin-top: 39px;
+  background: #4dbeee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0; }
+
+/* line 404, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.program_soc .download {
+  height: 59px;
+  padding-top: 12px;
+  border-right: 1px solid #ECEDF0; }
+
+/* line 410, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.program_soc .download a, .program_soc .download div {
+  line-height: 35px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: PragmaticaC; }
+
+/* line 418, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.program_soc .social {
+  background: #ffcb05;
+  height: 64px;
+  padding-top: 12px; }
+
+/* line 423, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.program_soc .social a {
+  font: 400 18px/18px PragmaticaC;
+  line-height: 15px;
+  color: #ffffff; }
+
+/* line 430, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.user_info {
+  background: #ffffff;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  height: 120px; }
+
+/* line 438, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.for_mobile {
+  background: #ffffff;
+  border-bottom: 1px solid #ECEDF0;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px; }
+  /* line 442, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .for_mobile a:before {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    float: left;
+    color: #4dbeee;
+    text-align: center; }
+  /* line 452, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .for_mobile a:hover:before {
+    color: #599DD8; }
+
+/* line 459, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.for_mobile:last-child {
+  border-bottom: none;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px; }
+
+/* line 467, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.for_mobile div {
+  height: 69px;
+  color: #4dbeee;
+  border-right: 1px solid #ECEDF0; }
+
+/* line 472, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.for_mobile div:last-child {
+  border-right: 0; }
+
+/* line 475, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-apple:before {
+  content: "\e601"; }
+
+/* line 478, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-android:before {
+  content: "\e602"; }
+
+/* line 481, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-fb:before {
+  content: "\66"; }
+
+/* line 484, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-vkontakte:before {
+  content: "\76"; }
+
+/* line 487, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-windows:before {
+  content: "\77"; }
+
+/* line 490, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.icon-g:before {
+  content: "\47";
+  font-weight: bold; }
+
+/* line 497, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+footer {
+  border-top: 1px solid #ffffff;
+  margin-top: 50px;
+  padding-top: 5px; }
+
+/* line 503, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.block_last {
+  margin: 26px 0; }
+  /* line 506, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last .block_one {
+    display: block;
+    padding: 0;
+    width: 315px;
+    background: #ffffff;
+    margin-right: 26px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px; }
+    /* line 515, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .block_last .block_one img {
+      -webkit-border-radius: 0 0 3px 3px;
+      -moz-border-radius: 0 0 3px 3px;
+      -ms-border-radius: 0 0 3px 3px;
+      border-radius: 0 0 3px 3px; }
+    /* line 519, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .block_last .block_one .name1, .block_last .block_one .name2 {
+      background-color: #4dbeed;
+      width: 100%;
+      height: 60px;
+      -webkit-border-radius: 3px 3px 0 0;
+      -moz-border-radius: 3px 3px 0 0;
+      -ms-border-radius: 3px 3px 0 0;
+      border-radius: 3px 3px 0 0;
+      font-family: PragmaticaC;
+      font-size: 18px;
+      line-height: 20px;
+      color: white;
+      padding-left: 10px;
+      float: left; }
+      /* line 531, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .block_last .block_one .name1 span, .block_last .block_one .name2 span {
+        display: block;
+        margin: 5px 0;
+        margin-right: 15px;
+        font-size: 15px;
+        color: #ffcb04; }
+    /* line 539, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .block_last .block_one .name2 {
+      background-color: #4dbeed; }
+    /* line 546, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .block_last .block_one .info_min {
+      width: 100%;
+      min-height: 162px;
+      padding: 10px 7px 15px;
+      font-family: PragmaticaC;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 18px;
+      background: #4dbeee;
+      -webkit-border-radius: 0 0 3px 3px;
+      -moz-border-radius: 0 0 3px 3px;
+      -ms-border-radius: 0 0 3px 3px;
+      border-radius: 0 0 3px 3px;
+      color: #ffffff; }
+      /* line 558, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .block_last .block_one .info_min span {
+        display: block;
+        color: #ffcb05;
+        margin: 0px 7px 5px 0px; }
+  /* line 566, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last .block_one:hover {
+    text-decoration: none; }
+    /* line 567, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .block_last .block_one:hover .name1, .block_last .block_one:hover .name2, .block_last .block_one:hover .info_min {
+      background: #009edb; }
+  /* line 574, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last .block_one:last-child {
+    margin-right: 0px; }
+
+/* line 579, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.cloud {
+  background-color: #d1d2d4;
+  height: 464px;
+  margin: 26px 0 0px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 587, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.line {
+  width: 99.4%;
+  height: 1px;
+  background: #fff;
+  margin: 20px 0; }
+
+/* line 594, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.navbar-biblioteka {
+  background: none;
+  height: auto;
+  margin: 0;
+  margin-bottom: 20px; }
+  /* line 600, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-biblioteka .navbar-nav {
+    background: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px; }
+    /* line 607, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .navbar-biblioteka .navbar-nav li {
+      height: auto;
+      margin-right: 23px; }
+      /* line 610, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .navbar-biblioteka .navbar-nav li a {
+        color: #898989;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 100%; }
+      /* line 616, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .navbar-biblioteka .navbar-nav li a:hover {
+        color: #898989; }
+    /* line 621, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .navbar-biblioteka .navbar-nav li.active a {
+      color: #898989; }
+    /* line 626, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .navbar-biblioteka .navbar-nav li.active, .navbar-biblioteka .navbar-nav li:hover {
+      /* text-decoration: underline; */
+      border-bottom: 1.5px solid #898989;
+      padding-bottom: 2px; }
+  /* line 634, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-biblioteka .active > a, .navbar-biblioteka .active > a:hover, .navbar-biblioteka .active > a:focus {
+    color: #898989; }
+
+/* line 642, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.biblioteka div {
+  margin-left: 0px; }
+
+/* line 646, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.biblioteka .one_block {
+  width: 263px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  padding: 0; }
+  /* line 653, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .biblioteka .one_block img {
+    max-width: 100%; }
+
+/* line 659, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.one_post {
+  margin-bottom: 30px; }
+  /* line 662, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post .row {
+    padding: 0; }
+  /* line 666, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post h2 {
+    font-size: 36px;
+    font-family: 'PragmaticaLightC';
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #707070; }
+    /* line 675, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post h2 a {
+      color: #707070;
+      font-size: 36px; }
+    /* line 679, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post h2 a:hover {
+      text-decoration: none; }
+  /* line 684, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post .name {
+    background: #4dbeee;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    width: 94.3%;
+    height: 35px;
+    line-height: 35px; }
+    /* line 694, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .name .author {
+      color: #fff;
+      font-size: 15px;
+      font-family: PragmaticaC;
+      padding-left: 15px;
+      font-weight: bold; }
+    /* line 701, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .name .data {
+      color: #ffcb05;
+      font-size: 15px;
+      font-family: PragmaticaC;
+      padding-left: 15px; }
+  /* line 710, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post .info {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: 98.5%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    font-family: PragmaticaC;
+    font-size: 15px; }
+    /* line 718, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .info div {
+      padding: 0; }
+      /* line 721, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .one_post .info div .text {
+        padding: 15px;
+        font-size: 16px;
+        font-family: PragmaticaC;
+        color: #707070; }
+    /* line 729, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .info img {
+      max-width: 95%;
+      margin: 15px; }
+  /* line 737, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post .more a {
+    background: #4dbeee;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 120px;
+    display: block;
+    color: #fff;
+    margin: 15px;
+    margin-top: 0px; }
+  /* line 750, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post .more a:hover {
+    background-color: #009ddb;
+    text-decoration: none;
+    font-weight: normal; }
+  /* line 756, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post .info_more {
+    padding: 0;
+    margin: 0;
+    width: 98.5%;
+    font-size: 16px;
+    font-family: PragmaticaC;
+    color: #707070;
+    background: #ffffff;
+    padding-bottom: 10px; }
+    /* line 766, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .info_more img {
+      max-width: 50%;
+      float: left;
+      margin: 15px 15px 15px 11px;
+      display: block; }
+    /* line 773, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .info_more .text {
+      padding: 20px 10px; }
+    /* line 778, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .info_more .soc {
+      width: 125px;
+      margin: 10px auto; }
+      /* line 782, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .one_post .info_more .soc a, .one_post .info_more .soc div {
+        cursor: pointer;
+        background-color: #4dbeed;
+        width: 31px;
+        height: 31px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        color: #ffcb08;
+        font-family: 'icomoon';
+        display: block;
+        text-align: center;
+        line-height: 31px;
+        margin-bottom: 10px;
+        float: left;
+        margin-right: 10px; }
+      /* line 797, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .one_post .info_more .soc a:hover, .one_post .info_more .soc div:hover {
+        text-decoration: none;
+        background-color: #009ddb; }
+
+/* line 808, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.about {
+  color: #707070; }
+  /* line 811, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .text_block {
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto;
+    text-align: left;
+    line-height: 120%;
+    margin-bottom: 55px; }
+    /* line 819, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about .text_block p {
+      margin: 0px; }
+  /* line 824, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .blocks {
+    width: 75%;
+    margin: 20px auto; }
+    /* line 828, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about .blocks .one_block {
+      float: left;
+      margin-right: 7%;
+      width: 26%; }
+      /* line 833, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .about .blocks .one_block .info {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 16px; }
+        /* line 838, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .about .blocks .one_block .info p {
+          margin: 0px; }
+    /* line 844, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about .blocks .one_block:last-child {
+      margin-right: 0; }
+  /* line 848, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .program_soc {
+    margin-top: 25px; }
+  /* line 851, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .help_3 {
+    margin-top: 25px; }
+  /* line 854, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .send_me {
+    background: #4dbeed;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px auto;
+    font-size: 18px;
+    font-family: PragmaticaC;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer; }
+  /* line 867, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .send_me:hover {
+    background-color: #009ddb; }
+
+/* line 871, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.send_me {
+  display: block;
+  background: #4dbeed;
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  margin: 30px auto;
+  font-size: 18px;
+  font-family: PragmaticaC;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer; }
+
+/* line 885, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.send_me:hover {
+  background-color: #009ddb !important;
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  margin: 30px auto;
+  font-size: 18px;
+  font-family: PragmaticaC;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer; }
+
+/* line 898, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+a.send_me {
+  line-height: 110%; }
+
+/* line 901, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies {
+  font-family: PragmaticaC; }
+  /* line 904, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies div {
+    margin-left: 0px;
+    padding: 0; }
+    /* line 908, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies div .one_block {
+      display: block;
+      width: 304px;
+      height: 341px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      color: white;
+      float: left;
+      margin: 0 88px 30px 0; }
+      /* line 917, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .exercies div .one_block img {
+        max-width: 100%; }
+      /* line 922, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .exercies div .one_block .info {
+        background: #4DBEED;
+        height: auto; }
+        /* line 926, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .exercies div .one_block .info h2 {
+          margin: 0px;
+          font-family: PragmaticaLightC;
+          font-size: 20px;
+          line-height: 110%;
+          color: white;
+          text-align: center;
+          padding: 20px; }
+        /* line 936, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .exercies div .one_block .info .time {
+          width: 100%;
+          padding: 0;
+          text-align: center;
+          display: block;
+          margin-top: -10px;
+          padding-bottom: 20px;
+          font-family: PragmaticaC;
+          font-size: 16px;
+          line-height: 100%;
+          color: #ffcb04; }
+    /* line 950, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies div .one_block:hover {
+      text-decoration: none; }
+      /* line 953, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .exercies div .one_block:hover .info {
+        background-color: #009ddb; }
+
+/* line 963, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.biblioteka_one {
+  min-height: 500px; }
+  /* line 965, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .biblioteka_one .one {
+    width: 655px;
+    margin: 0px auto 20px;
+    position: relative; }
+    /* line 971, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .neighbors .prev_work, .biblioteka_one .one .neighbors .next_work {
+      background-color: #4dbeed;
+      width: 53px;
+      height: 53px;
+      font-family: 'icomoon';
+      text-align: center;
+      line-height: 53px;
+      position: absolute;
+      top: 200px;
+      color: #ffcb08;
+      font-size: 40px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      cursor: pointer; }
+    /* line 986, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .neighbors .prev_work:hover, .biblioteka_one .one .neighbors .next_work:hover {
+      background-color: #009ddb; }
+    /* line 989, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .neighbors .prev_work {
+      left: -80px; }
+    /* line 992, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .neighbors .next_work {
+      right: -80px; }
+    /* line 997, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .info {
+      background-color: #4dbeed;
+      padding: 13px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      font-family: Arial;
+      font-size: 15px;
+      line-height: 125%;
+      color: white;
+      margin-top: 20px;
+      font-weight: lighter; }
+    /* line 1009, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .soc {
+      position: absolute;
+      top: 390px;
+      right: -57px; }
+      /* line 1014, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .biblioteka_one .one .soc a, .biblioteka_one .one .soc div {
+        cursor: pointer;
+        background-color: #4dbeed;
+        width: 31px;
+        height: 31px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        color: #ffcb08;
+        font-family: 'icomoon';
+        display: block;
+        text-align: center;
+        line-height: 31px;
+        margin-bottom: 10px; }
+      /* line 1027, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .biblioteka_one .one .soc a:hover, .biblioteka_one .one .soc div:hover {
+        text-decoration: none;
+        background-color: #009ddb; }
+
+/* line 1036, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.about_lepetun {
+  width: 90%;
+  margin: 20px auto; }
+  /* line 1040, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about_lepetun .left {
+    width: 25%;
+    float: left;
+    margin-top: 0px; }
+  /* line 1046, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about_lepetun .right {
+    width: 65%;
+    float: left;
+    margin-left: -8px; }
+    /* line 1051, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .right .info {
+      background-color: #4dbeed;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      padding: 18px;
+      font-family: PragmaticaC;
+      font-size: 16px;
+      line-height: 120%;
+      color: #fefefe; }
+    /* line 1060, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .right .info_2 {
+      margin: 15px;
+      font-family: PragmaticaC;
+      font-size: 18px;
+      color: #707070;
+      line-height: 120%;
+      margin-top: 30px; }
+      /* line 1068, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .about_lepetun .right .info_2 .blue_big {
+        color: #4dbeed;
+        font-size: 24px;
+        font-family: PragmaticaC; }
+      /* line 1073, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .about_lepetun .right .info_2 .blue {
+        color: #4dbeed; }
+    /* line 1079, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .right .soc {
+      width: 125px;
+      margin: 10px auto; }
+      /* line 1083, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .about_lepetun .right .soc a, .about_lepetun .right .soc div {
+        cursor: pointer;
+        background-color: #4dbeed;
+        width: 31px;
+        height: 31px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        color: #ffcb08;
+        font-family: 'icomoon';
+        display: block;
+        text-align: center;
+        line-height: 31px;
+        margin-bottom: 10px;
+        float: left;
+        margin-right: 10px; }
+      /* line 1098, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .about_lepetun .right .soc a:hover, .about_lepetun .right .soc div:hover {
+        text-decoration: none;
+        background-color: #009ddb; }
+
+/* line 1107, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.clr {
+  clear: both; }
+
+/* line 1111, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.blocks_exercise {
+  width: 120%; }
+
+/* line 1115, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.top_block {
+  height: 66px;
+  background-color: #4dbeee;
+  padding-left: 0px;
+  border-radius: 3px;
+  margin-left: 29px;
+  margin-top: 24px;
+  padding-right: 0px;
+  float: left;
+  width: 910px; }
+  /* line 1125, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .top_block .form-control {
+    float: left; }
+  /* line 1129, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .top_block .search_button {
+    width: 23px;
+    height: 23px;
+    background: none;
+    background-repeat: no-repeat;
+    border: none;
+    font-family: 'icomoon';
+    float: left;
+    margin-left: -35px;
+    display: block;
+    margin-top: 5px;
+    z-index: 2;
+    position: relative;
+    color: #4dbeee;
+    font-size: 17px;
+    line-height: normal; }
+
+/* line 1149, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_4 .navbar-form {
+  width: 85% !important;
+  padding: 17px 0px !important;
+  margin: 0 auto;
+  float: none !important; }
+  /* line 1155, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_4 .navbar-form .search_button {
+    width: 23px;
+    height: 23px;
+    background: none;
+    background-repeat: no-repeat;
+    border: none;
+    font-family: 'icomoon';
+    float: right;
+    margin-right: 10px;
+    display: block;
+    margin-top: -27px;
+    z-index: 2;
+    position: relative;
+    color: #4dbeee;
+    font-size: 17px;
+    line-height: normal; }
+
+/* line 1176, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies_one .number_step {
+  width: 605px;
+  margin: 15px auto 90px; }
+  /* line 1180, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .number_step li {
+    display: block;
+    width: 43px;
+    height: 43px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+    font-family: "PragmaticaLightC";
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    background-color: #6f6f6f;
+    float: left;
+    display: block;
+    margin-right: 10px;
+    cursor: pointer; }
+  /* line 1197, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .number_step li:last-child {
+    margin-right: 0px; }
+
+/* line 1202, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies_one .quetion {
+  font-size: 30px;
+  line-height: 117%;
+  color: #6f6f6f;
+  text-align: center;
+  font-family: "PragmaticaLightC";
+  margin: 20px auto;
+  font-weight: bold; }
+
+/* line 1211, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies_one .variantu {
+  width: 250px;
+  margin: 0 auto; }
+  /* line 1214, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .variantu .one {
+    min-height: 55px;
+    margin-bottom: 20px; }
+    /* line 1218, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio {
+      vertical-align: top;
+      margin: 0 3px 0 0; }
+    /* line 1222, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio + label {
+      cursor: pointer; }
+    /* line 1225, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:not(checked) {
+      position: absolute;
+      opacity: 0; }
+    /* line 1229, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:not(checked) + label {
+      position: relative;
+      padding: 0 0 0 73px;
+      font-size: 24px;
+      line-height: 28px;
+      color: #4dbeed;
+      font-weight: normal;
+      width: 350px;
+      max-width: 350px; }
+    /* line 1239, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:not(checked) + label:before {
+      content: '';
+      position: absolute;
+      top: -3px;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      border: 4px solid #F1C931;
+      border-radius: 50%; }
+    /* line 1249, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:not(checked) + label:after {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 8px;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #4dbeed;
+      opacity: 0;
+      transition: all 0.2s; }
+    /* line 1261, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:checked + label:after {
+      opacity: 1; }
+    /* line 1264, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:focus + label:before {
+      box-shadow: 0 0 0 3px rgba(77, 190, 237, 0.1); }
+  /* line 1269, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .variantu .verify {
+    background-color: #4dbeed;
+    width: 181px;
+    height: 65px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    margin: 30px auto;
+    font-family: PragmaticaLightC;
+    font-size: 28px;
+    line-height: 65px;
+    color: white;
+    text-align: center;
+    cursor: pointer; }
+  /* line 1282, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .variantu .verify:hover {
+    background-color: #009ddb; }
+
+/* line 1288, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies_one .answer_right {
+  width: 550px;
+  margin: 30px auto;
+  position: relative; }
+  /* line 1293, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .answer_right .next {
+    background-color: #4dbeed;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    width: 157px;
+    height: 79px;
+    font-family: PragmaticaLightC;
+    font-size: 36px;
+    line-height: 79px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 195px;
+    top: -5px; }
+  /* line 1308, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .answer_right .next:hover {
+    background-color: #009ddb; }
+
+/* line 1313, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies_one .answer_wrong {
+  width: 80%;
+  margin: 20px auto; }
+  /* line 1317, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .answer_wrong .left {
+    width: 186px;
+    float: left;
+    margin-top: 30px; }
+  /* line 1323, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .answer_wrong .right {
+    width: 60%;
+    float: left;
+    margin-left: -15px; }
+    /* line 1328, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_wrong .right .info {
+      background-color: #4dbeed;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      padding: 17px;
+      font-family: Arial;
+      font-size: 16px;
+      line-height: 113%;
+      color: #fefefe;
+      min-height: 120px; }
+    /* line 1339, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_wrong .right .next {
+      background-color: #4dbeed;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      width: 157px;
+      height: 79px;
+      font-family: PragmaticaLightC;
+      font-size: 36px;
+      line-height: 79px;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      margin: 15px auto; }
+    /* line 1352, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_wrong .right .next:hover {
+      background-color: #009ddb; }
+
+/* line 1358, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.exercies_one .end_exercise {
+  width: 80%;
+  margin: 20px auto; }
+  /* line 1362, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .end_exercise .buttons {
+    width: 400px;
+    margin: 0 auto; }
+    /* line 1366, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .end_exercise .buttons .yet, .exercies_one .end_exercise .buttons .next, .exercies_one .end_exercise .buttons .button {
+      background-color: #4dbeed;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      width: 181px;
+      height: 79px;
+      font-family: PragmaticaLightC;
+      font-size: 28px;
+      line-height: 110%;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      float: left;
+      margin-right: 15px;
+      padding-top: 10px;
+      font-weight: normal;
+      text-decoration: none; }
+    /* line 1386, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .end_exercise .buttons .next {
+      padding-top: 20px;
+      display: block; }
+    /* line 1390, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .end_exercise .buttons .button {
+      width: 377px;
+      margin: 15px 0;
+      float: none;
+      font-size: 25px;
+      line-height: 52px;
+      background-color: #f1c931; }
+    /* line 1398, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .end_exercise .buttons .next, .exercies_one .end_exercise .buttons .yet:hover, .exercies_one .end_exercise .buttons .button:hover {
+      text-decoration: none; }
+    /* line 1401, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .end_exercise .buttons .yet:hover, .exercies_one .end_exercise .buttons .next:hover, .exercies_one .end_exercise .buttons .button:hover {
+      background-color: #009ddb; }
+  /* line 1405, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .end_exercise .man {
+    width: 320px;
+    margin: 45px auto 20px; }
+
+/* line 1413, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.spinner {
+  margin: 200px auto;
+  width: 50px;
+  height: 50px;
+  position: relative; }
+
+/* line 1420, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container1 > div, .container2 > div, .container3 > div {
+  width: 10px;
+  height: 10px;
+  background-color: #4dbeed;
+  border-radius: 100%;
+  position: absolute;
+  -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+  animation: bouncedelay 1.2s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 1434, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.spinner .spinner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+/* line 1440, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container2 {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg); }
+
+/* line 1445, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container3 {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg); }
+
+/* line 1450, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.circle1 {
+  top: 0;
+  left: 0; }
+
+/* line 1451, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.circle2 {
+  top: 0;
+  right: 0; }
+
+/* line 1452, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.circle3 {
+  right: 0;
+  bottom: 0; }
+
+/* line 1453, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.circle4 {
+  left: 0;
+  bottom: 0; }
+
+/* line 1455, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container2 .circle1 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s; }
+
+/* line 1460, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container3 .circle1 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s; }
+
+/* line 1465, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container1 .circle2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s; }
+
+/* line 1470, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container2 .circle2 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s; }
+
+/* line 1475, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container3 .circle2 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s; }
+
+/* line 1480, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container1 .circle3 {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s; }
+
+/* line 1485, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container2 .circle3 {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s; }
+
+/* line 1490, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container3 .circle3 {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s; }
+
+/* line 1495, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container1 .circle4 {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s; }
+
+/* line 1500, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container2 .circle4 {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s; }
+
+/* line 1505, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.container3 .circle4 {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s; }
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0); }
+  40% {
+    -webkit-transform: scale(1); } }
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+/* line 1525, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help {
+  margin-top: 25px;
+  height: 59px;
+  background: #4dbeed;
+  text-align: center;
+  line-height: 59px;
+  font-family: "PragmaticaC";
+  font-size: 20px;
+  color: white; }
+
+/* line 1536, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.about_row {
+  width: 85%;
+  margin: 30px auto; }
+
+/* line 1542, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_block_center {
+  width: 206px;
+  margin: 15px auto 0;
+  float: none; }
+
+/* line 1548, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_1 {
+  background: #d1d2d4;
+  height: 70px;
+  color: #ffffff; }
+  /* line 1553, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .text {
+    text-align: left;
+    margin: 8px auto 2px; }
+  /* line 1558, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .form-control {
+    width: 80%;
+    height: 28px;
+    float: left;
+    margin-right: 5px; }
+  /* line 1564, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 span {
+    display: block;
+    margin: 5px; }
+  /* line 1569, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .search_button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    line-height: 64px; }
+  /* line 1576, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .search_button:hover {
+    color: #4dbeed; }
+  /* line 1579, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .col-md-6 {
+    border-right: 1px solid #ECEDF0;
+    height: 70px; }
+  /* line 1583, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .col-md-6:last-child {
+    border-right: none; }
+
+/* line 1589, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.one_page {
+  margin-top: -20px; }
+
+/* line 1593, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.one_page .col-md-4 {
+  margin: 0 auto; }
+
+/* line 1598, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.answer_right, .answer_wrong, .end_exercise, .number_step {
+  display: none; }
+
+/* line 1602, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.active_step {
+  border: 2px solid #4dbeed !important; }
+
+/* line 1605, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.active_step_after {
+  border: 2px solid #ffffff !important; }
+
+/* line 1608, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.right_step {
+  background-color: #4dbeed !important; }
+
+/* line 1611, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.wrong_step {
+  background-color: #F1C931 !important; }
+
+/* line 1615, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.blue_text {
+  color: #4dbeed; }
+
+/* line 1618, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.grey_text {
+  color: #d1d2d4 !important; }
+
+/* line 1621, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.grey_text:before {
+  color: #d1d2d4 !important; }
+
+/* line 1625, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.text-error {
+  color: red; }
+
+/* line 1628, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.register {
+  width: 420px;
+  margin: 30px auto; }
+
+/* line 1633, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+#id-resourse {
+  min-height: 700px; }
+
+/* line 1634, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.bold {
+  font-weight: bold; }
+
+/* line 1637, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_2 {
+  margin-top: 25px;
+  height: 69px;
+  background-color: #ffcb05;
+  text-align: center;
+  line-height: 69px;
+  color: #ffffff;
+  font: 400 18px/26px PragmaticaC; }
+
+/* line 1646, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_3 {
+  margin-top: 39px;
+  height: 69px;
+  background: #4dbeed;
+  text-align: center;
+  line-height: 69px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: PragmaticaC;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0; }
+  /* line 1657, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_3 a {
+    font-size: 18px; }
+
+/* line 1661, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_3:hover {
+  background-color: #009edb; }
+
+/* line 1664, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_4 {
+  height: 69px;
+  background: #ffcb05;
+  text-align: center;
+  line-height: 69px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: PragmaticaC;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px; }
+  /* line 1673, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_4 a {
+    font-size: 18px; }
+
+/* line 1677, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_page .text_block {
+  margin-bottom: 0px; }
+
+/* line 1680, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_page .about_row {
+  margin: 10px auto 30px; }
+
+/* line 1683, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.help_4:hover {
+  background-color: #d1d3d4; }
+
+/* line 1686, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.error {
+  color: red; }
+
+/* line 1688, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.user_info_register {
+  height: auto !important; }
+
+/* line 1690, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+#scrollUp {
+  bottom: 50px;
+  right: 50px;
+  width: 43px;
+  height: 42px;
+  opacity: 0.6;
+  background: url(../images/Up.png) no-repeat; }
+
+/* line 1698, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+#scrollUp:hover {
+  opacity: 1; }
+
+/* line 1702, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.market {
+  width: 1009px;
+  margin: 0 auto; }
+  /* line 1705, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .market h1 {
+    color: #4dbfee;
+    font: 400 24px/25px PragmaticaC;
+    font-weight: bold; }
+  /* line 1710, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .market .info {
+    margin-bottom: 40px; }
+    /* line 1712, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .market .info .text {
+      float: left;
+      color: #707070;
+      font: 400 18px/23px PragmaticaC;
+      line-height: 140%; }
+      /* line 1717, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .market .info .text span {
+        color: #4dbfee;
+        font: 400 18px/23px PragmaticaC; }
+    /* line 1723, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .market .info .sell {
+      margin-top: -30px;
+      float: right;
+      background-color: #4dbeee;
+      width: 179px;
+      height: 60px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px;
+      color: #ffffff;
+      font: 400 24px/19px PragmaticaC;
+      border: none; }
+    /* line 1735, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .market .info .sell:hover {
+      background-color: #009edb; }
+  /* line 1740, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .market img {
+    margin-top: 20px; }
+
+/* #### Mobile Phones Portrait #### */
+/* #### Mobile Phones Landscape #### */
+/* #### Mobile Phones Portrait or Landscape #### */
+/* #### iPhone 4+ Portrait or Landscape #### */
+/* #### Tablets Portrait or Landscape #### */
+/* #### Desktops #### */
+@media (max-width: 1200px) {
+  /* line 1776, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1 .form-control {
+    width: 50%; }
+  /* line 1779, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .name_user, .level_user, .icon-smakoluk {
+    margin-left: 0px; }
+  /* line 1782, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .icon-smakoluk:before {
+    margin-right: 10px; }
+  /* line 1785, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .icon-settings span {
+    font-size: 16px; }
+  /* line 1788, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar {
+    height: auto; }
+  /* line 1791, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .top_block {
+    width: 100%;
+    margin: 20px auto; }
+  /* line 1795, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last .block_one {
+    width: 47%; } }
+
+@media (max-width: 1100px) {
+  /* line 1801, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar {
+    height: auto; }
+  /* line 1804, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .top_block {
+    width: 100%;
+    margin: 20px auto; }
+  /* line 1808, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last .block_one {
+    width: 49%;
+    margin-right: 10px; }
+  /* line 1812, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-nav > li {
+    margin-right: 3%; }
+  /* line 1815, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-form {
+    width: 17%; }
+  /* line 1819, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-nav, .navbar-biblioteka .navbar-nav {
+    height: auto;
+    border-radius: 3px;
+    width: 80%; }
+    /* line 1824, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .navbar-nav li, .navbar-biblioteka .navbar-nav li {
+      text-decoration: none;
+      padding-bottom: 0px; }
+      /* line 1827, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .navbar-nav li a, .navbar-biblioteka .navbar-nav li a {
+        color: #ffffff; }
+      /* line 1830, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .navbar-nav li a:hover, .navbar-biblioteka .navbar-nav li a:hover {
+        text-decoration: none;
+        padding-bottom: 0px; }
+  /* line 1838, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-biblioteka .navbar-nav {
+    background: none;
+    margin: 10px auto 5px;
+    margin-left: -15px;
+    padding: 0; }
+    /* line 1843, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .navbar-biblioteka .navbar-nav li {
+      margin-bottom: 8px;
+      height: 30px;
+      float: left;
+      margin-right: 3%; }
+      /* line 1849, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .navbar-biblioteka .navbar-nav li a {
+        color: #898989; }
+      /* line 1852, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .navbar-biblioteka .navbar-nav li a:hover {
+        background: none; }
+  /* line 1858, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 20px;
+    margin: 20px; }
+  /* line 1862, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .col-md-6 span {
+    font-size: 14px; }
+  /* line 1865, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .blocks_exercise {
+    width: 100%; }
+  /* line 1868, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies div .one_block {
+    width: 45%;
+    margin-right: 30px;
+    height: auto; }
+  /* line 1875, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about_lepetun {
+    width: 95%; }
+    /* line 1877, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .left {
+      width: 30%; }
+    /* line 1880, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .right {
+      width: 70%; }
+  /* line 1885, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block {
+    margin-left: 15px;
+    padding: 0; }
+    /* line 1889, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .right_block .help_3, .right_block .program_soc {
+      margin-top: 15px; }
+    /* line 1893, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .right_block .row, .right_block .help_1 {
+      width: 100%; }
+      /* line 1896, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .right_block .row .col-md-6, .right_block .row .col-md-4, .right_block .row .col-md-8, .right_block .help_1 .col-md-6, .right_block .help_1 .col-md-4, .right_block .help_1 .col-md-8 {
+        float: left; }
+      /* line 1899, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .right_block .row .col-md-2, .right_block .help_1 .col-md-2 {
+        width: 16.666666666%;
+        float: left; }
+        /* line 1902, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .right_block .row .col-md-2 a, .right_block .help_1 .col-md-2 a {
+          text-align: center; }
+        /* line 1905, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .right_block .row .col-md-2 a:before, .right_block .help_1 .col-md-2 a:before {
+          display: block;
+          margin: 15px auto;
+          width: 100%; } }
+
+@media screen and (max-width: 960px) {
+  /* line 1918, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .market {
+    width: 90%; }
+    /* line 1922, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .market .info .text {
+      float: none; }
+    /* line 1925, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .market .info .sell {
+      float: none;
+      margin: 15px 0 0; }
+  /* line 1933, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  #scrollUp {
+    bottom: 0px;
+    right: 50%;
+    margin-right: -22px; }
+  /* line 1938, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .icon-reg_in:before {
+    font-size: 25px;
+    margin: 0 25px 0 16px; }
+  /* line 1943, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .help_1, .program_soc {
+    margin: 20px auto;
+    width: 100%; }
+    /* line 1947, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .help_1 .col-md-6, .help_1 .col-md-4, .help_1 .col-md-8, .program_soc .col-md-6, .program_soc .col-md-4, .program_soc .col-md-8 {
+      width: 50%;
+      float: left; }
+    /* line 1951, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .help_1 .col-md-2, .program_soc .col-md-2 {
+      width: 16.666666666%;
+      float: left; }
+      /* line 1954, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .help_1 .col-md-2 a, .program_soc .col-md-2 a {
+        text-align: center; }
+      /* line 1957, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .help_1 .col-md-2 a:before, .program_soc .col-md-2 a:before {
+        display: block;
+        margin: 15px auto;
+        width: 100%; }
+  /* line 1966, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-nav > li {
+    margin-right: 2%; }
+  /* line 1969, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .container {
+    width: 100%; }
+  /* line 1972, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .index_last_img {
+    width: 100%; }
+    /* line 1974, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .index_last_img img {
+      margin: 0 auto; }
+  /* line 1978, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last .block_one {
+    width: 100%;
+    margin-bottom: 20px; }
+  /* line 1982, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block {
+    margin: 0 auto;
+    width: 92%;
+    float: none; }
+    /* line 1986, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .right_block .row {
+      margin: 20px auto;
+      width: 100%; }
+      /* line 1990, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .right_block .row .col-md-6, .right_block .row .col-md-4, .right_block .row .col-md-8 {
+        width: 50%;
+        float: left; }
+      /* line 1994, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .right_block .row .col-md-2 {
+        width: 16.666666666%;
+        float: left; }
+        /* line 1997, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .right_block .row .col-md-2 a {
+          text-align: center; }
+        /* line 2000, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        .right_block .row .col-md-2 a:before {
+          display: block;
+          margin: 25px auto;
+          width: 100%;
+          font-size: 20px; }
+    /* line 2008, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .right_block .help_3, .right_block .program_soc {
+      margin-bottom: 0px; }
+    /* line 2011, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .right_block .help_4, .right_block .for_mobile, .right_block .user_info {
+      margin-top: 0px; }
+  /* line 2015, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar {
+    height: auto; }
+  /* line 2019, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-nav > li {
+    margin-right: 2%; }
+  /* line 2022, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-nav {
+    height: auto;
+    border-radius: 3px; }
+  /* line 2027, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin: 20px;
+    margin-right: 0px; }
+  /* line 2033, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .biblioteka .one_block {
+    width: 45%;
+    float: left;
+    margin-right: 10px; } }
+
+@media screen and (max-width: 748px) {
+  /* line 2045, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .navbar-form {
+    width: 80%; }
+  /* line 2049, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .cloud {
+    margin-top: 0px; }
+  /* line 2052, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .block_last {
+    margin-bottom: 0px; }
+  /* line 2056, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .program_soc .download a, .program_soc .download div {
+    line-height: 20px; }
+  /* line 2062, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .settings .icon-settings span {
+    font-size: 12px; }
+  /* line 2065, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .settings .icon-settings:before {
+    font-size: 22px; }
+  /* line 2069, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .row .col-md-4 {
+    width: 35%;
+    padding: 0; }
+  /* line 2073, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .row .col-md-8 {
+    width: 65%;
+    padding: 0; }
+  /* line 2077, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .register {
+    width: 98%; }
+  /* line 2080, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .right_block .help_3 {
+    margin-bottom: 0px; }
+  /* line 2083, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .top_block {
+    height: auto;
+    width: 100%;
+    margin: 20px auto; }
+    /* line 2088, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .top_block li {
+      padding: 0;
+      height: 50px;
+      border-bottom: none;
+      margin-left: 20px;
+      margin-right: 20px; }
+    /* line 2102, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .top_block .navbar-nav li.active, .top_block .navbar-nav li:hover {
+      height: 50px; }
+    /* line 2107, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .top_block .navbar-form {
+      margin: 15px auto;
+      padding: 0;
+      border: none; }
+  /* line 2117, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about .blocks .one_block {
+    width: 100%;
+    margin: 20px auto; }
+    /* line 2121, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about .blocks .one_block img {
+      width: 50%;
+      margin: 0 auto;
+      display: block; }
+  /* line 2132, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .biblioteka_one .one {
+    width: 100%;
+    margin: 0 auto 20px; }
+    /* line 2136, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one img {
+      width: 100%;
+      margin: 0px auto; }
+    /* line 2141, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .soc {
+      position: initial;
+      width: 220px;
+      margin: 20px auto; }
+      /* line 2146, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .biblioteka_one .one .soc a, .biblioteka_one .one .soc div {
+        float: left;
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px; }
+    /* line 2155, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .info {
+      margin-bottom: 20px; }
+    /* line 2159, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .neighbors {
+      width: 170px;
+      margin: 15px auto; }
+      /* line 2162, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .biblioteka_one .one .neighbors .prev_work, .biblioteka_one .one .neighbors .next_work {
+        position: initial;
+        float: left;
+        margin-right: 30px; }
+    /* line 2171, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .biblioteka_one .one .neighbors:after {
+      content: '';
+      display: block;
+      clear: both; }
+  /* line 2179, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .one_post {
+    width: 100%;
+    margin: 0px auto 35px; }
+    /* line 2182, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .row {
+      margin-right: 0;
+      width: 100%; }
+    /* line 2186, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .name {
+      width: 100%;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px; }
+    /* line 2190, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .one_post .info {
+      width: 100%;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px; }
+      /* line 2194, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      .one_post .info img {
+        margin: 0 auto;
+        width: 100%; }
+  /* line 2201, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies div .one_block {
+    width: 80%;
+    margin: 20px auto 30px;
+    float: none; }
+  /* line 2209, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .variantu {
+    width: 95%; }
+    /* line 2212, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .variantu .one .radio:not(checked) + label {
+      width: 100%;
+      max-width: 100%; }
+  /* line 2218, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .quetion {
+    font-size: 24px; }
+  /* line 2222, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .number_step {
+    width: 95%;
+    margin: 20px auto; }
+  /* line 2227, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .answer_right {
+    width: 100%; }
+    /* line 2230, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_right img {
+      width: 35%; }
+    /* line 2233, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_right .next {
+      right: 20px; }
+  /* line 2238, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .answer_wrong {
+    width: 95%; }
+    /* line 2240, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_wrong .left {
+      width: 25%; }
+    /* line 2243, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .answer_wrong .right {
+      width: 75%; }
+  /* line 2249, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .end_exercise .buttons {
+    width: 100%; }
+    /* line 2252, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .end_exercise .buttons .yet, .exercies_one .end_exercise .buttons .next {
+      width: 44%;
+      font-size: 18px;
+      height: 60px; }
+  /* line 2259, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .end_exercise .man {
+    width: 60%; }
+  /* line 2264, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one h1 {
+    text-align: center; }
+  /* line 2267, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .exercies_one .number_step {
+    margin: 25px auto;
+    width: 100%; }
+    /* line 2271, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .exercies_one .number_step li {
+      width: 25px;
+      height: 25px;
+      font-size: 14px;
+      line-height: 25px;
+      margin-right: 4px; }
+  /* line 2281, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .about_lepetun {
+    width: 95%; }
+    /* line 2283, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .left {
+      width: 85px; }
+    /* line 2286, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .about_lepetun .right {
+      width: 70%; } }
+
+/* line 2299, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.form-group label {
+  color: #4dbfee;
+  font: 700 18px PragmaticaC; }
+
+/* line 2304, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.registerbtn, .btn-default {
+  background: none;
+  background-color: #ffcb05;
+  border-radius: 3px;
+  width: 173px;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  font: 400 18px/18px PragmaticaC;
+  border-color: #ffcb05;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  padding: 0; }
+
+/* line 2319, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.registerbtn:hover, .btn-default:hover {
+  background-color: #4dbeed;
+  border-color: #4dbeed;
+  color: #ffffff; }
+
+/* line 2325, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.info_user_block {
+  width: 90%;
+  margin: 15px auto;
+  font-family: PragmaticaC;
+  font-size: 15px; }
+  /* line 2331, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .info_user_block .left {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    color: #959595;
+    font: 400 18px/20px PragmaticaLightC; }
+  /* line 2339, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .info_user_block .right {
+    width: 65%;
+    float: left;
+    font: 700 20px/20px PragmaticaLightC;
+    font-weight: 700;
+    color: #6d6e71; }
+    /* line 2346, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .info_user_block .right a, .info_user_block .right a:hover {
+      color: #4dbeed;
+      font-weight: bold; }
+  /* line 2352, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .info_user_block .right:after {
+    content: '';
+    display: block;
+    clear: both; }
+  /* line 2357, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .info_user_block .control-group {
+    text-align: center; }
+
+/* line 2367, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.dyktant.exercies_one h1 {
+  color: #707070;
+  font: 700 24px/28px PragmaticaLightC; }
+
+/* line 2371, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.dyktant.exercies_one .body_text {
+  background-color: #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px 15px;
+  color: #242424;
+  font: 400 20px/28px PragmaticaLightC; }
+  /* line 2378, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .dyktant.exercies_one .body_text span {
+    position: relative;
+    line-height: 1; }
+  /* line 2382, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  .dyktant.exercies_one .body_text .explanation {
+    position: absolute;
+    width: 354px;
+    height: auto;
+    background-color: #707070;
+    padding: 10px;
+    left: 0;
+    color: #ffffff;
+    font: 400 14px/18px PragmaticaLightC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: none;
+    margin-top: 5px;
+    z-index: 101; }
+
+/*# sourceMappingURL=app.css.map */
