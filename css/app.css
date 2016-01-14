@@ -2283,5 +2283,57 @@ a.send_me {
     display: none;
     margin-top: 5px;
     z-index: 101; }
+    /* line 2396, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    .dyktant.exercies_one .body_text .explanation em {
+      color: #FDC904; }
+
+/* line 2402, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.dyktant.exercies_one #detect_exercise {
+  width: 173px;
+  height: 40px;
+  background-color: #4dbeee;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #4dbeee;
+  color: #ffffff;
+  font: 400 24px/18px PragmaticaLightC;
+  margin-top: 15px;
+  outline: none;
+  float: left;
+  margin-right: 15px; }
+
+/* line 2417, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.dyktant.exercies_one .result {
+  float: left;
+  padding: 10px;
+  color: #ffffff;
+  font: 400 24px/18px PragmaticaLightC;
+  margin-top: 15px;
+  background-color: #7cc576;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  display: none; }
+
+/* line 2428, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+.dyktant.exercies_one .icon-fb {
+  margin-top: 15px;
+  display: block;
+  width: 53px;
+  height: 40px;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+  background-color: #4dbeee;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none; }
 
 /*# sourceMappingURL=app.css.map */

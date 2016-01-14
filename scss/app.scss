@@ -2392,7 +2392,52 @@ background-color: #d1d3d4;
             display: none;
             margin-top: 5px;
             z-index: 101;
+
+            em{
+                color: #FDC904;
+            }
         }
+    }
+
+    #detect_exercise {
+
+        width: 173px;
+        height: 40px;
+        background-color: #4dbeee;
+        @include border-radius(3px);
+        border-color: #4dbeee;
+        color: #ffffff;
+        font: 400 24px / 18px PragmaticaLightC;
+        margin-top: 15px;
+        outline: none;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .result{
+        float: left;
+        padding: 10px;
+        color: #ffffff;
+        font: 400 24px / 18px PragmaticaLightC;
+        margin-top: 15px;
+        background-color: #7cc576;
+        @include border-radius(3px);
+        display: none;
+    }
+
+    .icon-fb{
+        margin-top: 15px;
+        display: block;
+        width: 53px;
+        height: 40px;
+        float: right;
+        font-size: 30px;
+        color: #fff;
+        background-color: #4dbeee;
+        @include border-radius(3px);
+        text-align: center;
+        line-height: 40px;
+        text-decoration: none;
     }
 
 }
