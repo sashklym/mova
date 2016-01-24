@@ -1742,6 +1742,184 @@ background-color: #d1d3d4;
     }
 }
 
+
+.form-group {
+
+    label{
+        color: #4dbfee;
+        font: 700 18px PragmaticaC;
+    }
+}
+.registerbtn, .btn-default{
+    background: none;
+    background-color: #ffcb05;
+    border-radius: 3px;
+    width: 173px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    font: 400 18px / 18px PragmaticaC;
+    border-color: #ffcb05;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.registerbtn:hover,.btn-default:hover{
+    background-color: $blue;
+    border-color: $blue;
+    color: #ffffff;
+}
+
+.info_user_block {
+    width: 90%;
+    margin: 15px auto;
+    font-family:PragmaticaC;
+    font-size:15px;
+
+    .left{
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+        color: #959595;
+        font: 400 18px/20px PragmaticaLightC;
+
+    }
+    .right{
+        width: 65%;
+        float: left;
+        font: 700 20px/20px PragmaticaLightC;
+        font-weight: 700;
+        color: #6d6e71;
+
+        a, a:hover{
+        color: $blue;
+            font-weight: bold;
+        }
+   ;
+    }
+    .right:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .control-group{
+    text-align: center;
+    }
+    .btn-primary{
+
+    }
+}
+
+
+.dyktant.exercies_one {
+    width: 798px;
+    margin: 0 auto;
+
+    h1{
+        color: #707070;
+        font: 700 24px / 28px PragmaticaLightC;
+    }
+    .body_text{
+        display: none;
+        background-color: #ffffff;
+        @include border-radius(3px);
+        padding: 20px 15px;
+        color: #242424;
+        font: 400 20px / 28px PragmaticaLightC;
+        z-index: 1000;
+        position: relative;
+
+
+        span{
+            position: relative;
+            line-height: 1;
+        }
+        .explanation{
+            position: absolute;
+            width: 354px;
+            height: auto;
+            background-color: #707070;
+            padding: 10px;
+            color: #ffffff;
+            font: 400 14px / 18px PragmaticaLightC;
+            @include border-radius(3px);
+            display: none;
+            margin-top: 5px;
+            z-index: 101;
+
+            em{
+                color: #FDC904;
+            }
+        }
+    }
+
+    #detect_exercise, .yet {
+        padding: 0 10px;
+        height: 40px;
+        background-color: #4dbeee;
+        @include border-radius(3px);
+        border-color: #4dbeee;
+        color: #ffffff;
+        font: 400 24px / 18px PragmaticaLightC;
+        margin-top: 15px;
+        outline: none;
+        float: left;
+        margin-right: 15px;
+        display: none;
+        line-height: 40px;
+        cursor: pointer;
+
+    }
+    #detect_exercise:hover, .yet:hover{
+        background: #009edb;
+    }
+
+    .yet {
+        background-color: #FDC904;
+        border-color: #FDC904;
+    }
+
+    .result{
+        float: left;
+        padding: 10px;
+        color: #ffffff;
+        font: 400 24px / 18px PragmaticaLightC;
+        margin-top: 15px;
+        background-color: #7cc576;
+        @include border-radius(3px);
+        display: none;
+        height: 40px;
+        line-height: 22px;
+    }
+
+    .icon-fb{
+        margin-top: 15px;
+        display: block;
+        width: 53px;
+        height: 40px;
+        float: right;
+        font-size: 30px;
+        color: #fff;
+        background-color: #4dbeee;
+        @include border-radius(3px);
+        text-align: center;
+        line-height: 40px;
+        text-decoration: none;
+        display: none;
+    }
+
+    .icon-fb:hover{
+        background: #009edb;
+    }
+
+    .cs-skin-elastic > span {
+        @include border-radius(2px);
+    }
+
+}
+
+
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 
@@ -1914,7 +2092,9 @@ background-color: #d1d3d4;
 }
 
 @media screen and (max-width: 960px){
-
+    .dyktant.exercies_one {
+        width: 100%;
+    }
     .market {
         width: 90%;
 
@@ -2294,150 +2474,3 @@ background-color: #d1d3d4;
 
 
 
-.form-group {
-
-    label{
-        color: #4dbfee;
-        font: 700 18px PragmaticaC;
-    }
-}
-.registerbtn, .btn-default{
-    background: none;
-    background-color: #ffcb05;
-    border-radius: 3px;
-    width: 173px;
-    height: 40px;
-    line-height: 40px;
-    color: #ffffff;
-    font: 400 18px / 18px PragmaticaC;
-    border-color: #ffcb05;
-    margin: 10px auto;
-    display: block;
-    text-align: center;
-    padding: 0;
-}
-.registerbtn:hover,.btn-default:hover{
-    background-color: $blue;
-    border-color: $blue;
-    color: #ffffff;
-}
-
-.info_user_block {
-    width: 90%;
-    margin: 15px auto;
-    font-family:PragmaticaC;
-    font-size:15px;
-
-    .left{
-        width: 30%;
-        float: left;
-        margin-right: 5%;
-        color: #959595;
-        font: 400 18px/20px PragmaticaLightC;
-
-    }
-    .right{
-        width: 65%;
-        float: left;
-        font: 700 20px/20px PragmaticaLightC;
-        font-weight: 700;
-        color: #6d6e71;
-
-        a, a:hover{
-        color: $blue;
-            font-weight: bold;
-        }
-   ;
-    }
-    .right:after{
-        content: '';
-        display: block;
-        clear: both;
-    }
-    .control-group{
-    text-align: center;
-    }
-    .btn-primary{
-
-    }
-}
-
-
-.dyktant.exercies_one {
-    h1{
-        color: #707070;
-        font: 700 24px / 28px PragmaticaLightC;
-    }
-    .body_text{
-        background-color: #ffffff;
-        @include border-radius(3px);
-        padding: 20px 15px;
-        color: #242424;
-        font: 400 20px / 28px PragmaticaLightC;
-
-        span{
-            position: relative;
-            line-height: 1;
-        }
-        .explanation{
-            position: absolute;
-            width: 354px;
-            height: auto;
-            background-color: #707070;
-            padding: 10px;
-            left: 0;
-            color: #ffffff;
-            font: 400 14px / 18px PragmaticaLightC;
-            @include border-radius(3px);
-            display: none;
-            margin-top: 5px;
-            z-index: 101;
-
-            em{
-                color: #FDC904;
-            }
-        }
-    }
-
-    #detect_exercise {
-
-        width: 173px;
-        height: 40px;
-        background-color: #4dbeee;
-        @include border-radius(3px);
-        border-color: #4dbeee;
-        color: #ffffff;
-        font: 400 24px / 18px PragmaticaLightC;
-        margin-top: 15px;
-        outline: none;
-        float: left;
-        margin-right: 15px;
-    }
-
-    .result{
-        float: left;
-        padding: 10px;
-        color: #ffffff;
-        font: 400 24px / 18px PragmaticaLightC;
-        margin-top: 15px;
-        background-color: #7cc576;
-        @include border-radius(3px);
-        display: none;
-    }
-
-    .icon-fb{
-        margin-top: 15px;
-        display: block;
-        width: 53px;
-        height: 40px;
-        float: right;
-        font-size: 30px;
-        color: #fff;
-        background-color: #4dbeee;
-        @include border-radius(3px);
-        text-align: center;
-        line-height: 40px;
-        text-decoration: none;
-    }
-
-}

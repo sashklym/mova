@@ -2,30 +2,11 @@ $(document).ready(function () {
 
     exersice.init();
 
-
-
-    $('.next').click(function () {
-        index_now++;
-        $('.answer_right').hide();
-        $('.answer_wrong').hide();
-
-        if (index_now >= num.length) {
-            exersice.show_result();
-        } else {
-            exersice.show_now_quetions(index_now);
-        }
-
-    });
-
     $('#detect_exercise').click(function () {
 
         exersice.verify_answer();
 
     });
-
-    //    $('span.show_rule .cs-select').click(function(){
-    //       return false;
-    //    });
 
 });
 
@@ -157,26 +138,8 @@ var exersice = {
         exersice.show_now_quetions(0);
     },
 
-    show_pagination: function () {
-        var number_step = '';
-        for (var i = 0; i < num.length; i++) {
-            id = parseInt(num[i]) - 1;
-            number_step += '<li id="step' + id + '" data-id="' + id + '">' + num[i] + '</li>'
-        }
-        $('.number_step').html(number_step);
-        $('.number_step').fadeIn();
-
-    },
-
     //--------------- show now quetions --------------------
     show_now_quetions: function (index_now) {
-
-
-        //		var this_element = $('#name_go_1');
-        //        $('html,body').animate({
-        //            scrollTop: (this_element.length) ? this_element.offset().top : 0
-        //        }, 1000);
-
 
         $('.body_text > span').each(function (i) {
 
@@ -190,7 +153,7 @@ var exersice = {
                 answers_variant += '<option value="' + one_answers[j] + '">' + one_answers[j] + '</option>';
             }
 
-            answers_variant += '</select><div class="explanation">' + explanation[j] + '</div>';
+            answers_variant += '</select>';
 
             //console.info(answers_variant);
             $(this).html(answers_variant);
@@ -204,38 +167,16 @@ var exersice = {
             });
         })();
 
-        $('span.show_rule').hover(function () {
-            clearTimeout($.data(this, 'timer'));
-            $('.explanation', this).stop(true, true).slideDown(200);
-        }, function () {
-            $.data(this, 'timer', setTimeout($.proxy(function () {
-                $('.explanation', this).stop(true, true).slideUp(200);
-            }, this), 100));
+        $('.cs-options').each(function(){
+            $(this)
+                .css(exersice.getPosition(this,200), 0)
+            ;
         });
 
-        exersice.ajaxPreload(jQuery('.exercies_one'), false);
-
-    },
-
-    //--------------- show now after result --------------------
-    show_after_result: function (index_now) {
-
-        var answers_variant = '';
-        $('#step' + index_now + '').addClass('active_step_after');
-
-        exersice.ajaxPreload(jQuery('.exercies_one'), true);
-        $(".block_quetion_variantu").animate({
-            opacity: '0.1'
-        }, 500, 'swing', function () {
-            $('.quetion').html(questions[index_now]);
-            $('.variantu').html(answers_variant);
-            $(".block_quetion_variantu").animate({
-                opacity: '1'
-            }, 500, 'swing', function () {
-                exersice.ajaxPreload(jQuery('.exercies_one'), false);
-                $('.info').html(explanation[index_now]);
-                $('.answer_wrong').fadeIn(500);
-            });
+        $('.body_text').show(700,function(){
+            exersice.ajaxPreload(jQuery('.exercies_one'), false);
+            $("#detect_exercise").show();
+            $(".icon-fb").show();
         });
 
     },
@@ -243,12 +184,6 @@ var exersice = {
     //----------------- verify answer --------------------
     verify_answer: function (index_now) {
 
-        //		var this_element = $('#name_go_2');
-        //        $('html,body').animate({
-        //            scrollTop: (this_element.length) ? this_element.offset().top : 0
-        //        }, 1000);
-
-        $('.info').html('');
         if ($('.cs-selected').length === num.length) {
 
             $('.body_text > span').each(function (i) {
@@ -269,7 +204,13 @@ var exersice = {
 
                 $('cs-options', this).css('display','none!important');
 
-                console.info(right_answer, $('li', this).index($('.cs-selected', this)));
+                //console.info(right_answer, $('li', this).index($('.cs-selected', this)));
+
+                $(this).append('<div class="explanation">' + explanation[i] + '</div>');
+
+                $('.explanation', this)
+                    .css(exersice.getPosition(this, 360), 0)
+                ;
 
             });
 
@@ -285,26 +226,32 @@ var exersice = {
             $('#result > .right').text(sum_correct);
             $('#result > .all').text(num.length);
             $('.result').show();
+            $('#detect_exercise').hide();
+            $('.yet').show();
 
-            //exersice.show_result();
-
-//            num_answer = $('input[name=radio]:checked').val();
-//
-//            if (num_answer == right_answer) {
-//                $('.answer_right').fadeIn();
-//                $('#step' + index_now + '').addClass('right_step');
-//                $('#step' + index_now + '').removeClass('active_step');
-//                sum_correct++;
-//            } else {
-//                $('.answer_wrong').fadeIn(500);
-//                $('.info').html(explanation[index_now]);
-//                $('#step' + index_now + '').removeClass('active_step');
-//                $('#step' + index_now + '').addClass('wrong_step');
-//            }
-        } else {
-            alert("Виберіть один із варіантів!")
+        }
+        else {
+            alert("Заповніть, будь ласка, всі поля!")
         }
 
+    },
+
+    // ----------------- get position -----------------------
+    getPosition: function(el, width_el){
+
+        var _window = $(window);
+        var _widthOfWindow = _window.width();
+        var _widthDifferenceFromXaxisOfRef = _widthOfWindow - $(el).offset().left;
+        var position_where = '';
+
+        if(_widthDifferenceFromXaxisOfRef < width_el){
+            position_where = 'right';
+        }
+        else{
+            position_where = 'left';
+        }
+
+        return position_where;
     },
 
     //------------------ show result ------------------------
@@ -328,33 +275,6 @@ var exersice = {
 
             },
             success: function (answer) {
-                //alert(answer);
-                exersice.ajaxPreload(jQuery('.exercies_one'), false);
-//                $('.man').hide();
-//                $('.quetion').html('Всього правильних відповідей &ndash; ' + sum_correct);
-//                $('.variantu').html('');
-//                $('.end_exercise').fadeIn();
-//                if (sum_correct >= 8) {
-//                    $('.man_yes').fadeIn();
-//                } else if (sum_correct > 3) {
-//                    $('.man_middle').fadeIn();
-//                } else {
-//                    $('.man_negative').fadeIn();
-//                }
-
-                $('.dyktant > .result > .right').text(sum_correct);
-                $('.dyktant > .result > .all').text(num.length);
-
-                $('#share-fb_exer').on('click', fb_share_exer);
-
-                $('.number_step li').click(function () {
-                    $('.man').hide();
-                    $('.next').hide();
-                    $('.buttons .next').show();
-                    var id = $(this).attr('data-id');
-                    exersice.show_after_result(id);
-
-                });
 
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
@@ -391,6 +311,17 @@ var exersice = {
 
     init: function () {
         exersice.load_all_exersice();
+        $('#result').hide();
+        $('#yet').hide();
+
+        $("#yet").click(function(){
+            location.reload();
+        });
+
+        $("#share").click(function(){
+            fb_share_exer();
+            return false;
+        });
     }
 
 };
@@ -414,3 +345,5 @@ function fb_share_exer() {
     });
 
 }
+
+

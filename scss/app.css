@@ -1,38 +1,38 @@
 @font-face {
   font-family: 'PragmaticaLightC';
-  src: url("../fonts/PragmaticaLightC.eot");
+  src: url('../fonts/PragmaticaLightC.eot');
   /* IE9 Compat Modes */
-  src: url("../fonts/PragmaticaLightC.woff") format("woff"), url("../fonts/PragmaticaLightC.ttf") format("truetype"), url("../fonts/PragmaticaLightC.svg") format("svg");
+  src: url('../fonts/PragmaticaLightC.woff') format('woff'), url('../fonts/PragmaticaLightC.ttf') format('truetype'), url('../fonts/PragmaticaLightC.svg') format('svg');
   /* Legacy iOS */
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'PragmaticaC';
-  src: url("../fonts/PragmaticaC.eot");
+  src: url('../fonts/PragmaticaC.eot');
   /* IE9 Compat Modes */
-  src: url("../fonts/PragmaticaC.woff") format("woff"), url("../fonts/PragmaticaC.ttf") format("truetype"), url("../fonts/PragmaticaC.svg") format("svg");
+  src: url('../fonts/PragmaticaC.woff') format('woff'), url('../fonts/PragmaticaC.ttf') format('truetype'), url('../fonts/PragmaticaC.svg') format('svg');
   /* Legacy iOS */
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Myriad Pro';
-  src: url("../fonts/myriadpro-regular.eot");
+  src: url('../fonts/myriadpro-regular.eot');
   /* IE9 Compat Modes */
-  src: url("../fonts/myriadpro-regular.woff") format("woff"), url("../fonts/myriadpro-regular.ttf") format("truetype"), url("../fonts/myriadpro-regular.svg") format("svg");
+  src: url('../fonts/myriadpro-regular.woff') format('woff'), url('../fonts/myriadpro-regular.ttf') format('truetype'), url('../fonts/myriadpro-regular.svg') format('svg');
   /* Legacy iOS */
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?-sm9jq8");
-  src: url("../fonts/icomoon.eot?#iefix-sm9jq8") format("embedded-opentype"), url("../fonts/icomoon.woff?-sm9jq8") format("woff"), url("../fonts/icomoon.ttf?-sm9jq8") format("truetype"), url("../fonts/icomoon.svg?-sm9jq8#icomoon") format("svg");
+  src: url('../fonts/icomoon.eot?-sm9jq8');
+  src: url('../fonts/icomoon.eot?#iefix-sm9jq8') format('embedded-opentype'), url('../fonts/icomoon.woff?-sm9jq8') format('woff'), url('../fonts/icomoon.ttf?-sm9jq8') format('truetype'), url('../fonts/icomoon.svg?-sm9jq8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal; }
 
-/* line 61, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 61, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -45,26 +45,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 78, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 78, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 body {
   background: url(../images/Bg.png); }
 
-/* line 82, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 82, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 ::-webkit-scrollbar {
   width: 9px;
   height: 9px; }
 
-/* line 86, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 86, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 ::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 3px; }
 
-/* line 90, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 90, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 ::-webkit-scrollbar-thumb {
   border-radius: 3px;
   background: #4dbeed; }
 
-/* line 95, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 95, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar {
   background: #ffffff;
   height: 117px;
@@ -72,11 +72,11 @@ body {
   box-shadow: none;
   border: none; }
 
-/* line 103, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 103, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 #myModal {
   display: none; }
 
-/* line 106, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 106, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar-brand {
   background: url(../images/Mova.png);
   width: 149px;
@@ -84,17 +84,17 @@ body {
   margin-top: 14px;
   background-repeat: no-repeat; }
 
-/* line 114, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 114, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar-nav {
   padding-left: 0px;
   height: 66px;
   border-radius: 3px;
   margin-left: 25px; }
-  /* line 121, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 121, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-nav li {
     margin-right: 34px; }
 
-/* line 126, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 126, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar-nav > li > a {
   font: 400 24px/20px PragmaticaLightC;
   line-height: 66px;
@@ -104,15 +104,15 @@ body {
   font-weight: 400;
   font-size: 23px; }
 
-/* line 135, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 135, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
   margin-left: 0px; }
 
-/* line 138, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 138, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container {
   /* padding: 0; */ }
 
-/* line 141, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 141, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .breadcrumb {
   padding: 0;
   margin-bottom: 20px;
@@ -120,42 +120,42 @@ body {
   background: none;
   border-radius: none; }
 
-/* line 148, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 148, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 a {
   color: #4dbeed;
   font-size: 16px;
   text-decoration: none; }
 
-/* line 153, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 153, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 a:hover {
   color: #4dbfee;
   font-size: 16px; }
 
-/* line 157, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 157, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .breadcrumb > .active {
   color: #707070;
   font-size: 16px;
   font-weight: 700; }
 
-/* line 163, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 163, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .index_last_img {
   margin-right: 11px;
   width: 61.1%; }
 
-/* line 168, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 168, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: transparent; }
 
-/* line 173, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 173, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_block .col-md-2 {
-  width: 16.666666666%;
+  width: 16.66667%;
   height: 64px;
   float: left; }
-  /* line 177, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 177, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .col-md-2 a {
     text-align: center; }
-  /* line 180, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 180, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .col-md-2 a:before {
     display: block;
     margin: 20px auto;
@@ -164,49 +164,47 @@ a:hover {
     font-size: 25px;
     float: left;
     color: #4dbeee; }
-
-/* line 191, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 191, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_block .user_info.no {
   height: 120px; }
-  /* line 193, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 193, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .user_info.no .name_user {
     margin-top: 50px;
     display: block; }
-
-/* line 199, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 199, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_block .user_info.no.register_no {
   background: #4dbeed; }
-  /* line 202, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 202, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .user_info.no.register_no .name_user {
     margin-top: 50px;
     color: #ffffff; }
-  /* line 206, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 206, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .user_info.no.register_no .icon-user:before {
     content: "\75"; }
 
-/* line 212, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 212, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_block a {
   color: #ffffff; }
 
-/* line 216, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 216, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_block div a:hover {
   color: #ffffff;
   text-decoration: none;
   font-weight: normal; }
 
-/* line 221, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 221, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .row {
   /* margin-right: 0; */
   /* margin-left: -15px; */ }
 
-/* line 225, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 225, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar-nav li.active, .navbar-nav li:hover {
   /* text-decoration: underline; */
   border-bottom: 1.5px solid #ffffff;
   padding-bottom: 2px;
   height: 50px; }
 
-/* line 232, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 232, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-user {
   width: 85px;
   height: 85px;
@@ -215,7 +213,7 @@ a:hover {
   margin: 15px 7px;
   display: block; }
 
-/* line 240, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 240, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-user:before {
   content: "\75";
   margin: 5px;
@@ -224,11 +222,11 @@ a:hover {
   padding-top: 6px;
   color: #4ac0ee; }
 
-/* line 248, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 248, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-user:hover {
   text-decoration: none; }
 
-/* line 252, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 252, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .name_user {
   display: block;
   color: #6d6e71 !important;
@@ -236,43 +234,43 @@ a:hover {
   font-weight: 700;
   margin: 20px 0 7px -25px; }
 
-/* line 260, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 260, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .name_user:hover {
   color: #6d6e71 !important;
   font: 700 24px/20px PragmaticaLightC;
   font-weight: 700; }
 
-/* line 265, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 265, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .copy_bootom {
   color: #959595;
   font: 400 14px/20px PragmaticaLightC;
   margin-top: 5px;
   margin-bottom: 5px; }
 
-/* line 271, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 271, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .level_user {
   margin-left: -25px;
   color: #959595;
   font: 400 18px/20px PragmaticaLightC; }
 
-/* line 277, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 277, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .smakoluku {
   background: #4dbeee;
   padding: 14px 0; }
 
-/* line 282, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 282, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-smakoluk {
   display: block;
   color: #4dbfee;
   margin-left: -25px;
   margin-top: 7px; }
 
-/* line 288, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 288, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-smakoluk span {
   font: 400 18px/18px PragmaticaC;
   color: #4dbfee; }
 
-/* line 292, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 292, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-smakoluk:before {
   content: "\e600";
   display: block;
@@ -281,21 +279,21 @@ a:hover {
   margin: -10px 70px 0 15px;
   color: #4ac0ee; }
 
-/* line 300, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 300, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .trening {
   background: #ffcb05;
   padding: 14px 0; }
 
-/* line 304, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 304, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-trening {
   color: #ffffff; }
 
-/* line 307, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 307, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-trening span {
   display: block;
   font: 400 18px/18px PragmaticaC; }
 
-/* line 311, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 311, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-trening:before {
   content: "\74";
   display: block;
@@ -303,7 +301,7 @@ a:hover {
   float: left;
   margin: 0 10px 0 15px; }
 
-/* line 318, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 318, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .settings {
   background: #d1d3d4;
   padding: 8px 0;
@@ -314,7 +312,7 @@ a:hover {
   border-radius: 0px 0px 0 3px;
   height: 48px; }
 
-/* line 328, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 328, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .reg_in {
   background: #d1d3d4;
   padding: 8px 0;
@@ -325,11 +323,11 @@ a:hover {
   border-radius: 0px 0px 0 3px;
   height: 48px; }
 
-/* line 338, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 338, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-reg_in {
   color: #4dbeed; }
 
-/* line 341, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 341, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-reg_in:before {
   content: "\e604";
   display: block;
@@ -338,28 +336,28 @@ a:hover {
   margin: 0 30px 0 50px;
   color: #4dbeed; }
 
-/* line 349, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 349, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-reg_in span {
   display: block;
   font: 400 18px/18px PragmaticaC;
   padding-top: 5px;
   font-size: 24px; }
 
-/* line 356, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 356, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-settings {
   color: #ffffff; }
 
-/* line 359, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 359, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-settings span {
   display: block;
   font: 400 18px/18px PragmaticaC;
   padding-top: 8px; }
 
-/* line 364, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 364, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_block span:hover {
   color: #009edb; }
 
-/* line 367, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 367, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-settings:before {
   content: "\73";
   display: block;
@@ -367,7 +365,7 @@ a:hover {
   float: left;
   margin: 0 10px 0 15px; }
 
-/* line 374, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 374, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .out {
   background: #d1d3d4;
   padding: 10px 0;
@@ -377,17 +375,17 @@ a:hover {
   border-radius: 0px 0px 3px 0;
   height: 48px; }
 
-/* line 383, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 383, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-out {
   color: #ffffff; }
 
-/* line 386, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 386, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-out span {
   display: block;
   font: 400 18px/18px PragmaticaC;
   padding-top: 8px; }
 
-/* line 391, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 391, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-out:before {
   content: "\6f";
   display: block;
@@ -395,7 +393,7 @@ a:hover {
   float: left;
   margin: 0 10px 0 15px; }
 
-/* line 398, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 398, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .program_soc {
   margin-top: 39px;
   background: #4dbeee;
@@ -404,32 +402,32 @@ a:hover {
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0; }
 
-/* line 404, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 404, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .program_soc .download {
   height: 59px;
   padding-top: 12px;
   border-right: 1px solid #ECEDF0; }
 
-/* line 410, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 410, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .program_soc .download a, .program_soc .download div {
   line-height: 35px;
   color: #ffffff;
   font-size: 18px;
   font-family: PragmaticaC; }
 
-/* line 418, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 418, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .program_soc .social {
   background: #ffcb05;
   height: 64px;
   padding-top: 12px; }
 
-/* line 423, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 423, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .program_soc .social a {
   font: 400 18px/18px PragmaticaC;
   line-height: 15px;
   color: #ffffff; }
 
-/* line 430, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 430, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .user_info {
   background: #ffffff;
   -webkit-border-radius: 3px 3px 0 0;
@@ -438,7 +436,7 @@ a:hover {
   border-radius: 3px 3px 0 0;
   height: 120px; }
 
-/* line 438, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 438, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .for_mobile {
   background: #ffffff;
   border-bottom: 1px solid #ECEDF0;
@@ -446,7 +444,7 @@ a:hover {
   -moz-border-radius: 0 0 3px 3px;
   -ms-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px; }
-  /* line 442, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 442, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .for_mobile a:before {
     display: block;
     margin: 20px auto;
@@ -456,11 +454,11 @@ a:hover {
     float: left;
     color: #4dbeee;
     text-align: center; }
-  /* line 452, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 452, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .for_mobile a:hover:before {
     color: #599DD8; }
 
-/* line 459, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 459, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .for_mobile:last-child {
   border-bottom: none;
   -webkit-border-radius: 0 0 3px 3px;
@@ -468,51 +466,51 @@ a:hover {
   -ms-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px; }
 
-/* line 467, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 467, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .for_mobile div {
   height: 69px;
   color: #4dbeee;
   border-right: 1px solid #ECEDF0; }
 
-/* line 472, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 472, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .for_mobile div:last-child {
   border-right: 0; }
 
-/* line 475, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 475, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-apple:before {
   content: "\e601"; }
 
-/* line 478, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 478, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-android:before {
   content: "\e602"; }
 
-/* line 481, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 481, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-fb:before {
   content: "\66"; }
 
-/* line 484, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 484, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-vkontakte:before {
   content: "\76"; }
 
-/* line 487, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 487, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-windows:before {
   content: "\77"; }
 
-/* line 490, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 490, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .icon-g:before {
   content: "\47";
   font-weight: bold; }
 
-/* line 497, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 497, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 footer {
   border-top: 1px solid #ffffff;
   margin-top: 50px;
   padding-top: 5px; }
 
-/* line 503, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 503, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .block_last {
   margin: 26px 0; }
-  /* line 506, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 506, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last .block_one {
     display: block;
     padding: 0;
@@ -523,13 +521,13 @@ footer {
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     border-radius: 3px; }
-    /* line 515, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 515, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .block_last .block_one img {
       -webkit-border-radius: 0 0 3px 3px;
       -moz-border-radius: 0 0 3px 3px;
       -ms-border-radius: 0 0 3px 3px;
       border-radius: 0 0 3px 3px; }
-    /* line 519, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 519, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .block_last .block_one .name1, .block_last .block_one .name2 {
       background-color: #4dbeed;
       width: 100%;
@@ -544,17 +542,17 @@ footer {
       color: white;
       padding-left: 10px;
       float: left; }
-      /* line 531, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 531, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .block_last .block_one .name1 span, .block_last .block_one .name2 span {
         display: block;
         margin: 5px 0;
         margin-right: 15px;
         font-size: 15px;
         color: #ffcb04; }
-    /* line 539, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 539, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .block_last .block_one .name2 {
       background-color: #4dbeed; }
-    /* line 546, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 546, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .block_last .block_one .info_min {
       width: 100%;
       min-height: 162px;
@@ -569,22 +567,22 @@ footer {
       -ms-border-radius: 0 0 3px 3px;
       border-radius: 0 0 3px 3px;
       color: #ffffff; }
-      /* line 558, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 558, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .block_last .block_one .info_min span {
         display: block;
         color: #ffcb05;
         margin: 0px 7px 5px 0px; }
-  /* line 566, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 566, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last .block_one:hover {
     text-decoration: none; }
-    /* line 567, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 567, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .block_last .block_one:hover .name1, .block_last .block_one:hover .name2, .block_last .block_one:hover .info_min {
       background: #009edb; }
-  /* line 574, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 574, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last .block_one:last-child {
     margin-right: 0px; }
 
-/* line 579, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 579, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .cloud {
   background-color: #d1d2d4;
   height: 464px;
@@ -594,73 +592,72 @@ footer {
   -ms-border-radius: 3px;
   border-radius: 3px; }
 
-/* line 587, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 587, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .line {
   width: 99.4%;
   height: 1px;
   background: #fff;
   margin: 20px 0; }
 
-/* line 594, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 594, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .navbar-biblioteka {
   background: none;
   height: auto;
   margin: 0;
   margin-bottom: 20px; }
-  /* line 600, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 600, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-biblioteka .navbar-nav {
     background: none;
     height: auto;
     margin: 0;
     padding: 0;
     margin-left: -15px; }
-    /* line 607, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 607, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .navbar-biblioteka .navbar-nav li {
       height: auto;
       margin-right: 23px; }
-      /* line 610, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 610, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .navbar-biblioteka .navbar-nav li a {
         color: #898989;
         font-weight: bold;
         font-size: 19px;
         line-height: 100%; }
-      /* line 616, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 616, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .navbar-biblioteka .navbar-nav li a:hover {
         color: #898989; }
-    /* line 621, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 621, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .navbar-biblioteka .navbar-nav li.active a {
       color: #898989; }
-    /* line 626, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 626, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .navbar-biblioteka .navbar-nav li.active, .navbar-biblioteka .navbar-nav li:hover {
       /* text-decoration: underline; */
       border-bottom: 1.5px solid #898989;
       padding-bottom: 2px; }
-  /* line 634, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 634, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-biblioteka .active > a, .navbar-biblioteka .active > a:hover, .navbar-biblioteka .active > a:focus {
     color: #898989; }
 
-/* line 642, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 642, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .biblioteka div {
   margin-left: 0px; }
-
-/* line 646, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 646, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .biblioteka .one_block {
   width: 263px;
   margin-right: 12px;
   margin-bottom: 12px;
   cursor: pointer;
   padding: 0; }
-  /* line 653, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 653, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .biblioteka .one_block img {
     max-width: 100%; }
 
-/* line 659, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 659, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .one_post {
   margin-bottom: 30px; }
-  /* line 662, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 662, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post .row {
     padding: 0; }
-  /* line 666, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 666, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post h2 {
     font-size: 36px;
     font-family: 'PragmaticaLightC';
@@ -669,14 +666,14 @@ footer {
     font-weight: bold;
     margin-bottom: 10px;
     color: #707070; }
-    /* line 675, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 675, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post h2 a {
       color: #707070;
       font-size: 36px; }
-    /* line 679, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 679, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post h2 a:hover {
       text-decoration: none; }
-  /* line 684, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 684, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post .name {
     background: #4dbeee;
     -webkit-border-radius: 3px;
@@ -689,20 +686,20 @@ footer {
     width: 94.3%;
     height: 35px;
     line-height: 35px; }
-    /* line 694, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 694, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .name .author {
       color: #fff;
       font-size: 15px;
       font-family: PragmaticaC;
       padding-left: 15px;
       font-weight: bold; }
-    /* line 701, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 701, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .name .data {
       color: #ffcb05;
       font-size: 15px;
       font-family: PragmaticaC;
       padding-left: 15px; }
-  /* line 710, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 710, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post .info {
     background: #fff;
     padding: 0;
@@ -714,20 +711,20 @@ footer {
     border-radius: 3px;
     font-family: PragmaticaC;
     font-size: 15px; }
-    /* line 718, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 718, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .info div {
       padding: 0; }
-      /* line 721, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 721, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .one_post .info div .text {
         padding: 15px;
         font-size: 16px;
         font-family: PragmaticaC;
         color: #707070; }
-    /* line 729, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 729, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .info img {
       max-width: 95%;
       margin: 15px; }
-  /* line 737, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 737, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post .more a {
     background: #4dbeee;
     -webkit-border-radius: 3px;
@@ -742,12 +739,12 @@ footer {
     color: #fff;
     margin: 15px;
     margin-top: 0px; }
-  /* line 750, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 750, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post .more a:hover {
     background-color: #009ddb;
     text-decoration: none;
     font-weight: normal; }
-  /* line 756, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 756, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post .info_more {
     padding: 0;
     margin: 0;
@@ -757,20 +754,20 @@ footer {
     color: #707070;
     background: #ffffff;
     padding-bottom: 10px; }
-    /* line 766, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 766, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .info_more img {
       max-width: 50%;
       float: left;
       margin: 15px 15px 15px 11px;
       display: block; }
-    /* line 773, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 773, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .info_more .text {
       padding: 20px 10px; }
-    /* line 778, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 778, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .info_more .soc {
       width: 125px;
       margin: 10px auto; }
-      /* line 782, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 782, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .one_post .info_more .soc a, .one_post .info_more .soc div {
         cursor: pointer;
         background-color: #4dbeed;
@@ -788,15 +785,15 @@ footer {
         margin-bottom: 10px;
         float: left;
         margin-right: 10px; }
-      /* line 797, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 797, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .one_post .info_more .soc a:hover, .one_post .info_more .soc div:hover {
         text-decoration: none;
         background-color: #009ddb; }
 
-/* line 808, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 808, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .about {
   color: #707070; }
-  /* line 811, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 811, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .text_block {
     font-size: 20px;
     width: 80%;
@@ -804,36 +801,36 @@ footer {
     text-align: left;
     line-height: 120%;
     margin-bottom: 55px; }
-    /* line 819, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 819, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about .text_block p {
       margin: 0px; }
-  /* line 824, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 824, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .blocks {
     width: 75%;
     margin: 20px auto; }
-    /* line 828, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 828, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about .blocks .one_block {
       float: left;
       margin-right: 7%;
       width: 26%; }
-      /* line 833, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 833, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .about .blocks .one_block .info {
         text-align: center;
         margin-top: 15px;
         font-size: 16px; }
-        /* line 838, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 838, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .about .blocks .one_block .info p {
           margin: 0px; }
-    /* line 844, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 844, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about .blocks .one_block:last-child {
       margin-right: 0; }
-  /* line 848, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 848, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .program_soc {
     margin-top: 25px; }
-  /* line 851, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 851, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .help_3 {
     margin-top: 25px; }
-  /* line 854, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 854, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .send_me {
     background: #4dbeed;
     width: 140px;
@@ -846,11 +843,11 @@ footer {
     text-align: center;
     border-radius: 3px;
     cursor: pointer; }
-  /* line 867, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 867, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .send_me:hover {
     background-color: #009ddb; }
 
-/* line 871, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 871, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .send_me {
   display: block;
   background: #4dbeed;
@@ -865,7 +862,7 @@ footer {
   border-radius: 3px;
   cursor: pointer; }
 
-/* line 885, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 885, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .send_me:hover {
   background-color: #009ddb !important;
   width: 140px;
@@ -879,18 +876,18 @@ footer {
   border-radius: 3px;
   cursor: pointer; }
 
-/* line 898, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 898, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 a.send_me {
   line-height: 110%; }
 
-/* line 901, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 901, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies {
   font-family: PragmaticaC; }
-  /* line 904, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 904, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies div {
     margin-left: 0px;
     padding: 0; }
-    /* line 908, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 908, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies div .one_block {
       display: block;
       width: 304px;
@@ -902,14 +899,14 @@ a.send_me {
       color: white;
       float: left;
       margin: 0 88px 30px 0; }
-      /* line 917, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 917, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .exercies div .one_block img {
         max-width: 100%; }
-      /* line 922, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 922, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .exercies div .one_block .info {
         background: #4DBEED;
         height: auto; }
-        /* line 926, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 926, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .exercies div .one_block .info h2 {
           margin: 0px;
           font-family: PragmaticaLightC;
@@ -918,7 +915,7 @@ a.send_me {
           color: white;
           text-align: center;
           padding: 20px; }
-        /* line 936, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 936, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .exercies div .one_block .info .time {
           width: 100%;
           padding: 0;
@@ -930,22 +927,22 @@ a.send_me {
           font-size: 16px;
           line-height: 100%;
           color: #ffcb04; }
-    /* line 950, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 950, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies div .one_block:hover {
       text-decoration: none; }
-      /* line 953, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 953, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .exercies div .one_block:hover .info {
         background-color: #009ddb; }
 
-/* line 963, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 963, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .biblioteka_one {
   min-height: 500px; }
-  /* line 965, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 965, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .biblioteka_one .one {
     width: 655px;
     margin: 0px auto 20px;
     position: relative; }
-    /* line 971, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 971, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .neighbors .prev_work, .biblioteka_one .one .neighbors .next_work {
       background-color: #4dbeed;
       width: 53px;
@@ -962,16 +959,16 @@ a.send_me {
       -ms-border-radius: 3px;
       border-radius: 3px;
       cursor: pointer; }
-    /* line 986, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 986, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .neighbors .prev_work:hover, .biblioteka_one .one .neighbors .next_work:hover {
       background-color: #009ddb; }
-    /* line 989, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 989, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .neighbors .prev_work {
       left: -80px; }
-    /* line 992, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 992, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .neighbors .next_work {
       right: -80px; }
-    /* line 997, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 997, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .info {
       background-color: #4dbeed;
       padding: 13px;
@@ -985,12 +982,12 @@ a.send_me {
       color: white;
       margin-top: 20px;
       font-weight: lighter; }
-    /* line 1009, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1009, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .soc {
       position: absolute;
       top: 390px;
       right: -57px; }
-      /* line 1014, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1014, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .biblioteka_one .one .soc a, .biblioteka_one .one .soc div {
         cursor: pointer;
         background-color: #4dbeed;
@@ -1006,26 +1003,26 @@ a.send_me {
         text-align: center;
         line-height: 31px;
         margin-bottom: 10px; }
-      /* line 1027, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1027, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .biblioteka_one .one .soc a:hover, .biblioteka_one .one .soc div:hover {
         text-decoration: none;
         background-color: #009ddb; }
 
-/* line 1036, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1036, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .about_lepetun {
   width: 90%;
   margin: 20px auto; }
-  /* line 1040, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1040, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about_lepetun .left {
     width: 25%;
     float: left;
     margin-top: 0px; }
-  /* line 1046, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1046, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about_lepetun .right {
     width: 65%;
     float: left;
     margin-left: -8px; }
-    /* line 1051, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1051, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .right .info {
       background-color: #4dbeed;
       -webkit-border-radius: 3px;
@@ -1037,7 +1034,7 @@ a.send_me {
       font-size: 16px;
       line-height: 120%;
       color: #fefefe; }
-    /* line 1060, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1060, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .right .info_2 {
       margin: 15px;
       font-family: PragmaticaC;
@@ -1045,19 +1042,19 @@ a.send_me {
       color: #707070;
       line-height: 120%;
       margin-top: 30px; }
-      /* line 1068, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1068, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .about_lepetun .right .info_2 .blue_big {
         color: #4dbeed;
         font-size: 24px;
         font-family: PragmaticaC; }
-      /* line 1073, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1073, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .about_lepetun .right .info_2 .blue {
         color: #4dbeed; }
-    /* line 1079, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1079, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .right .soc {
       width: 125px;
       margin: 10px auto; }
-      /* line 1083, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1083, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .about_lepetun .right .soc a, .about_lepetun .right .soc div {
         cursor: pointer;
         background-color: #4dbeed;
@@ -1075,20 +1072,20 @@ a.send_me {
         margin-bottom: 10px;
         float: left;
         margin-right: 10px; }
-      /* line 1098, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1098, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .about_lepetun .right .soc a:hover, .about_lepetun .right .soc div:hover {
         text-decoration: none;
         background-color: #009ddb; }
 
-/* line 1107, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1107, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .clr {
   clear: both; }
 
-/* line 1111, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1111, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .blocks_exercise {
   width: 120%; }
 
-/* line 1115, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1115, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .top_block {
   height: 66px;
   background-color: #4dbeee;
@@ -1099,10 +1096,10 @@ a.send_me {
   padding-right: 0px;
   float: left;
   width: 910px; }
-  /* line 1125, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1125, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .top_block .form-control {
     float: left; }
-  /* line 1129, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1129, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .top_block .search_button {
     width: 23px;
     height: 23px;
@@ -1120,13 +1117,13 @@ a.send_me {
     font-size: 17px;
     line-height: normal; }
 
-/* line 1149, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1149, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_4 .navbar-form {
   width: 85% !important;
   padding: 17px 0px !important;
   margin: 0 auto;
   float: none !important; }
-  /* line 1155, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1155, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_4 .navbar-form .search_button {
     width: 23px;
     height: 23px;
@@ -1144,11 +1141,11 @@ a.send_me {
     font-size: 17px;
     line-height: normal; }
 
-/* line 1176, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1176, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies_one .number_step {
   width: 605px;
   margin: 15px auto 90px; }
-  /* line 1180, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1180, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .number_step li {
     display: block;
     width: 43px;
@@ -1168,11 +1165,10 @@ a.send_me {
     display: block;
     margin-right: 10px;
     cursor: pointer; }
-  /* line 1197, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1197, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .number_step li:last-child {
     margin-right: 0px; }
-
-/* line 1202, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1202, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies_one .quetion {
   font-size: 30px;
   line-height: 117%;
@@ -1181,27 +1177,26 @@ a.send_me {
   font-family: "PragmaticaLightC";
   margin: 20px auto;
   font-weight: bold; }
-
-/* line 1211, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1211, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies_one .variantu {
   width: 250px;
   margin: 0 auto; }
-  /* line 1214, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1214, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .variantu .one {
     min-height: 55px;
     margin-bottom: 20px; }
-    /* line 1218, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1218, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio {
       vertical-align: top;
       margin: 0 3px 0 0; }
-    /* line 1222, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1222, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio + label {
       cursor: pointer; }
-    /* line 1225, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1225, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:not(checked) {
       position: absolute;
       opacity: 0; }
-    /* line 1229, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1229, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:not(checked) + label {
       position: relative;
       padding: 0 0 0 73px;
@@ -1211,7 +1206,7 @@ a.send_me {
       font-weight: normal;
       width: 350px;
       max-width: 350px; }
-    /* line 1239, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1239, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:not(checked) + label:before {
       content: '';
       position: absolute;
@@ -1221,7 +1216,7 @@ a.send_me {
       height: 50px;
       border: 4px solid #F1C931;
       border-radius: 50%; }
-    /* line 1249, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1249, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:not(checked) + label:after {
       content: '';
       position: absolute;
@@ -1233,13 +1228,13 @@ a.send_me {
       background: #4dbeed;
       opacity: 0;
       transition: all 0.2s; }
-    /* line 1261, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1261, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:checked + label:after {
       opacity: 1; }
-    /* line 1264, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1264, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:focus + label:before {
       box-shadow: 0 0 0 3px rgba(77, 190, 237, 0.1); }
-  /* line 1269, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1269, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .variantu .verify {
     background-color: #4dbeed;
     width: 181px;
@@ -1255,16 +1250,15 @@ a.send_me {
     color: white;
     text-align: center;
     cursor: pointer; }
-  /* line 1282, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1282, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .variantu .verify:hover {
     background-color: #009ddb; }
-
-/* line 1288, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1288, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies_one .answer_right {
   width: 550px;
   margin: 30px auto;
   position: relative; }
-  /* line 1293, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1293, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .answer_right .next {
     background-color: #4dbeed;
     -webkit-border-radius: 3px;
@@ -1282,25 +1276,24 @@ a.send_me {
     position: absolute;
     right: 195px;
     top: -5px; }
-  /* line 1308, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1308, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .answer_right .next:hover {
     background-color: #009ddb; }
-
-/* line 1313, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1313, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies_one .answer_wrong {
   width: 80%;
   margin: 20px auto; }
-  /* line 1317, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1317, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .answer_wrong .left {
     width: 186px;
     float: left;
     margin-top: 30px; }
-  /* line 1323, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1323, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .answer_wrong .right {
     width: 60%;
     float: left;
     margin-left: -15px; }
-    /* line 1328, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1328, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_wrong .right .info {
       background-color: #4dbeed;
       -webkit-border-radius: 3px;
@@ -1313,7 +1306,7 @@ a.send_me {
       line-height: 113%;
       color: #fefefe;
       min-height: 120px; }
-    /* line 1339, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1339, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_wrong .right .next {
       background-color: #4dbeed;
       -webkit-border-radius: 3px;
@@ -1329,19 +1322,18 @@ a.send_me {
       text-align: center;
       cursor: pointer;
       margin: 15px auto; }
-    /* line 1352, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1352, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_wrong .right .next:hover {
       background-color: #009ddb; }
-
-/* line 1358, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1358, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .exercies_one .end_exercise {
   width: 80%;
   margin: 20px auto; }
-  /* line 1362, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1362, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .end_exercise .buttons {
     width: 400px;
     margin: 0 auto; }
-    /* line 1366, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1366, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .end_exercise .buttons .yet, .exercies_one .end_exercise .buttons .next, .exercies_one .end_exercise .buttons .button {
       background-color: #4dbeed;
       -webkit-border-radius: 3px;
@@ -1361,11 +1353,11 @@ a.send_me {
       padding-top: 10px;
       font-weight: normal;
       text-decoration: none; }
-    /* line 1386, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1386, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .end_exercise .buttons .next {
       padding-top: 20px;
       display: block; }
-    /* line 1390, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1390, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .end_exercise .buttons .button {
       width: 377px;
       margin: 15px 0;
@@ -1373,25 +1365,25 @@ a.send_me {
       font-size: 25px;
       line-height: 52px;
       background-color: #f1c931; }
-    /* line 1398, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1398, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .end_exercise .buttons .next, .exercies_one .end_exercise .buttons .yet:hover, .exercies_one .end_exercise .buttons .button:hover {
       text-decoration: none; }
-    /* line 1401, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1401, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .end_exercise .buttons .yet:hover, .exercies_one .end_exercise .buttons .next:hover, .exercies_one .end_exercise .buttons .button:hover {
       background-color: #009ddb; }
-  /* line 1405, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1405, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .end_exercise .man {
     width: 320px;
     margin: 45px auto 20px; }
 
-/* line 1413, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1413, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .spinner {
   margin: 200px auto;
   width: 50px;
   height: 50px;
   position: relative; }
 
-/* line 1420, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1420, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container1 > div, .container2 > div, .container3 > div {
   width: 10px;
   height: 10px;
@@ -1404,112 +1396,118 @@ a.send_me {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-/* line 1434, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1434, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .spinner .spinner-container {
   position: absolute;
   width: 100%;
   height: 100%; }
 
-/* line 1440, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1440, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container2 {
   -webkit-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-/* line 1445, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1445, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container3 {
   -webkit-transform: rotateZ(90deg);
   transform: rotateZ(90deg); }
 
-/* line 1450, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1450, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .circle1 {
   top: 0;
   left: 0; }
 
-/* line 1451, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1451, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .circle2 {
   top: 0;
   right: 0; }
 
-/* line 1452, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1452, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .circle3 {
   right: 0;
   bottom: 0; }
 
-/* line 1453, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1453, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .circle4 {
   left: 0;
   bottom: 0; }
 
-/* line 1455, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1455, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container2 .circle1 {
   -webkit-animation-delay: -1.1s;
   animation-delay: -1.1s; }
 
-/* line 1460, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1460, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container3 .circle1 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s; }
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s; }
 
-/* line 1465, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1465, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container1 .circle2 {
   -webkit-animation-delay: -0.9s;
   animation-delay: -0.9s; }
 
-/* line 1470, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1470, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container2 .circle2 {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s; }
 
-/* line 1475, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1475, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container3 .circle2 {
   -webkit-animation-delay: -0.7s;
   animation-delay: -0.7s; }
 
-/* line 1480, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1480, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container1 .circle3 {
   -webkit-animation-delay: -0.6s;
   animation-delay: -0.6s; }
 
-/* line 1485, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1485, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container2 .circle3 {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s; }
 
-/* line 1490, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1490, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container3 .circle3 {
   -webkit-animation-delay: -0.4s;
   animation-delay: -0.4s; }
 
-/* line 1495, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1495, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container1 .circle4 {
   -webkit-animation-delay: -0.3s;
   animation-delay: -0.3s; }
 
-/* line 1500, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1500, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container2 .circle4 {
   -webkit-animation-delay: -0.2s;
   animation-delay: -0.2s; }
 
-/* line 1505, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1505, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .container3 .circle4 {
   -webkit-animation-delay: -0.1s;
   animation-delay: -0.1s; }
 
 @-webkit-keyframes bouncedelay {
+  /* line 1511, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   0%, 80%, 100% {
     -webkit-transform: scale(0); }
+
+  /* line 1512, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   40% {
     -webkit-transform: scale(1); } }
 
 @keyframes bouncedelay {
+  /* line 1516, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   0%, 80%, 100% {
     transform: scale(0);
     -webkit-transform: scale(0); }
+
+  /* line 1519, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   40% {
     transform: scale(1);
     -webkit-transform: scale(1); } }
 
-/* line 1525, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1525, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help {
   margin-top: 25px;
   height: 59px;
@@ -1520,111 +1518,111 @@ a.send_me {
   font-size: 20px;
   color: white; }
 
-/* line 1536, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1536, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .about_row {
   width: 85%;
   margin: 30px auto; }
 
-/* line 1542, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1542, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_block_center {
   width: 206px;
   margin: 15px auto 0;
   float: none; }
 
-/* line 1548, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1548, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_1 {
   background: #d1d2d4;
   height: 70px;
   color: #ffffff; }
-  /* line 1553, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1553, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .text {
     text-align: left;
     margin: 8px auto 2px; }
-  /* line 1558, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1558, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .form-control {
     width: 80%;
     height: 28px;
     float: left;
     margin-right: 5px; }
-  /* line 1564, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1564, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 span {
     display: block;
     margin: 5px; }
-  /* line 1569, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1569, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .search_button {
     background: none;
     border: none;
     font-size: 18px;
     line-height: 64px; }
-  /* line 1576, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1576, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .search_button:hover {
     color: #4dbeed; }
-  /* line 1579, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1579, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .col-md-6 {
     border-right: 1px solid #ECEDF0;
     height: 70px; }
-  /* line 1583, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1583, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .col-md-6:last-child {
     border-right: none; }
 
-/* line 1589, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1589, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .one_page {
   margin-top: -20px; }
 
-/* line 1593, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1593, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .one_page .col-md-4 {
   margin: 0 auto; }
 
-/* line 1598, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1598, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .answer_right, .answer_wrong, .end_exercise, .number_step {
   display: none; }
 
-/* line 1602, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1602, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .active_step {
   border: 2px solid #4dbeed !important; }
 
-/* line 1605, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1605, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .active_step_after {
   border: 2px solid #ffffff !important; }
 
-/* line 1608, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1608, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .right_step {
   background-color: #4dbeed !important; }
 
-/* line 1611, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1611, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .wrong_step {
   background-color: #F1C931 !important; }
 
-/* line 1615, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1615, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .blue_text {
   color: #4dbeed; }
 
-/* line 1618, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1618, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .grey_text {
   color: #d1d2d4 !important; }
 
-/* line 1621, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1621, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .grey_text:before {
   color: #d1d2d4 !important; }
 
-/* line 1625, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1625, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .text-error {
   color: red; }
 
-/* line 1628, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1628, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .register {
   width: 420px;
   margin: 30px auto; }
 
-/* line 1633, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1633, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 #id-resourse {
   min-height: 700px; }
 
-/* line 1634, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1634, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .bold {
   font-weight: bold; }
 
-/* line 1637, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1637, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_2 {
   margin-top: 25px;
   height: 69px;
@@ -1634,7 +1632,7 @@ a.send_me {
   color: #ffffff;
   font: 400 18px/26px PragmaticaC; }
 
-/* line 1646, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1646, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_3 {
   margin-top: 39px;
   height: 69px;
@@ -1648,15 +1646,15 @@ a.send_me {
   -moz-border-radius: 3px 3px 0 0;
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0; }
-  /* line 1657, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1657, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_3 a {
     font-size: 18px; }
 
-/* line 1661, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1661, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_3:hover {
   background-color: #009edb; }
 
-/* line 1664, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1664, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_4 {
   height: 69px;
   background: #ffcb05;
@@ -1669,31 +1667,31 @@ a.send_me {
   -moz-border-radius: 0 0 3px 3px;
   -ms-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px; }
-  /* line 1673, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1673, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_4 a {
     font-size: 18px; }
 
-/* line 1677, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1677, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_page .text_block {
   margin-bottom: 0px; }
 
-/* line 1680, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1680, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_page .about_row {
   margin: 10px auto 30px; }
 
-/* line 1683, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1683, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .help_4:hover {
   background-color: #d1d3d4; }
 
-/* line 1686, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1686, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .error {
   color: red; }
 
-/* line 1688, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1688, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .user_info_register {
   height: auto !important; }
 
-/* line 1690, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1690, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 #scrollUp {
   bottom: 50px;
   right: 50px;
@@ -1702,33 +1700,33 @@ a.send_me {
   opacity: 0.6;
   background: url(../images/Up.png) no-repeat; }
 
-/* line 1698, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1698, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 #scrollUp:hover {
   opacity: 1; }
 
-/* line 1702, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1702, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .market {
   width: 1009px;
   margin: 0 auto; }
-  /* line 1705, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1705, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .market h1 {
     color: #4dbfee;
     font: 400 24px/25px PragmaticaC;
     font-weight: bold; }
-  /* line 1710, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1710, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .market .info {
     margin-bottom: 40px; }
-    /* line 1712, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1712, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .market .info .text {
       float: left;
       color: #707070;
       font: 400 18px/23px PragmaticaC;
       line-height: 140%; }
-      /* line 1717, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1717, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .market .info .text span {
         color: #4dbfee;
         font: 400 18px/23px PragmaticaC; }
-    /* line 1723, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1723, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .market .info .sell {
       margin-top: -30px;
       float: right;
@@ -1742,19 +1740,19 @@ a.send_me {
       color: #ffffff;
       font: 400 24px/19px PragmaticaC;
       border: none; }
-    /* line 1735, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1735, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .market .info .sell:hover {
       background-color: #009edb; }
-  /* line 1740, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1740, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .market img {
     margin-top: 20px; }
 
-/* line 1748, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1748, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .form-group label {
   color: #4dbfee;
   font: 700 18px PragmaticaC; }
 
-/* line 1753, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1753, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .registerbtn, .btn-default {
   background: none;
   background-color: #ffcb05;
@@ -1770,54 +1768,54 @@ a.send_me {
   text-align: center;
   padding: 0; }
 
-/* line 1768, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1768, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .registerbtn:hover, .btn-default:hover {
   background-color: #4dbeed;
   border-color: #4dbeed;
   color: #ffffff; }
 
-/* line 1774, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1774, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .info_user_block {
   width: 90%;
   margin: 15px auto;
   font-family: PragmaticaC;
   font-size: 15px; }
-  /* line 1780, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1780, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .info_user_block .left {
     width: 30%;
     float: left;
     margin-right: 5%;
     color: #959595;
     font: 400 18px/20px PragmaticaLightC; }
-  /* line 1788, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1788, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .info_user_block .right {
     width: 65%;
     float: left;
     font: 700 20px/20px PragmaticaLightC;
     font-weight: 700;
     color: #6d6e71; }
-    /* line 1795, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1795, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .info_user_block .right a, .info_user_block .right a:hover {
       color: #4dbeed;
       font-weight: bold; }
-  /* line 1801, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1801, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .info_user_block .right:after {
     content: '';
     display: block;
     clear: both; }
-  /* line 1806, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1806, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .info_user_block .control-group {
     text-align: center; }
 
-/* line 1815, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+/* line 1815, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
 .dyktant.exercies_one {
   width: 798px;
   margin: 0 auto; }
-  /* line 1819, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1819, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one h1 {
     color: #707070;
     font: 700 24px/28px PragmaticaLightC; }
-  /* line 1823, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1823, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one .body_text {
     display: none;
     background-color: #ffffff;
@@ -1830,11 +1828,11 @@ a.send_me {
     font: 400 20px/28px PragmaticaLightC;
     z-index: 1000;
     position: relative; }
-    /* line 1834, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1834, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .dyktant.exercies_one .body_text span {
       position: relative;
       line-height: 1; }
-    /* line 1838, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 1838, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .dyktant.exercies_one .body_text .explanation {
       position: absolute;
       width: 354px;
@@ -1850,10 +1848,10 @@ a.send_me {
       display: none;
       margin-top: 5px;
       z-index: 101; }
-      /* line 1851, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 1851, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .dyktant.exercies_one .body_text .explanation em {
         color: #FDC904; }
-  /* line 1857, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1857, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one #detect_exercise, .dyktant.exercies_one .yet {
     padding: 0 10px;
     height: 40px;
@@ -1872,14 +1870,14 @@ a.send_me {
     display: none;
     line-height: 40px;
     cursor: pointer; }
-  /* line 1874, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1874, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one #detect_exercise:hover, .dyktant.exercies_one .yet:hover {
     background: #009edb; }
-  /* line 1878, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1878, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one .yet {
     background-color: #FDC904;
     border-color: #FDC904; }
-  /* line 1883, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1883, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one .result {
     float: left;
     padding: 10px;
@@ -1894,7 +1892,7 @@ a.send_me {
     display: none;
     height: 40px;
     line-height: 22px; }
-  /* line 1896, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1896, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one .icon-fb {
     margin-top: 15px;
     display: block;
@@ -1912,10 +1910,10 @@ a.send_me {
     line-height: 40px;
     text-decoration: none;
     display: none; }
-  /* line 1912, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1912, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one .icon-fb:hover {
     background: #009edb; }
-  /* line 1916, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1916, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one .cs-skin-elastic > span {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -1929,318 +1927,364 @@ a.send_me {
 /* #### Tablets Portrait or Landscape #### */
 /* #### Desktops #### */
 @media (max-width: 1200px) {
-  /* line 1954, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1954, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1 .form-control {
     width: 50%; }
-  /* line 1957, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1957, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .name_user, .level_user, .icon-smakoluk {
     margin-left: 0px; }
-  /* line 1960, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1960, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .icon-smakoluk:before {
     margin-right: 10px; }
-  /* line 1963, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1963, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .icon-settings span {
     font-size: 16px; }
-  /* line 1966, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1966, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar {
     height: auto; }
-  /* line 1969, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1969, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .top_block {
     width: 100%;
     margin: 20px auto; }
-  /* line 1973, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1973, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last .block_one {
-    width: 47%; } }
+    width: 47%; }
+ }
 
 @media (max-width: 1100px) {
-  /* line 1979, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 1979, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar {
     height: auto; }
-  /* line 1982, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1982, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .top_block {
     width: 100%;
     margin: 20px auto; }
-  /* line 1986, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1986, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last .block_one {
     width: 49%;
     margin-right: 10px; }
-  /* line 1990, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1990, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-nav > li {
     margin-right: 3%; }
-  /* line 1993, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1993, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-form {
     width: 17%; }
-  /* line 1997, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 1997, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-nav, .navbar-biblioteka .navbar-nav {
     height: auto;
     border-radius: 3px;
     width: 80%; }
-    /* line 2002, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2002, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .navbar-nav li, .navbar-biblioteka .navbar-nav li {
       text-decoration: none;
       padding-bottom: 0px; }
-      /* line 2005, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2005, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .navbar-nav li a, .navbar-biblioteka .navbar-nav li a {
         color: #ffffff; }
-      /* line 2008, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2008, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .navbar-nav li a:hover, .navbar-biblioteka .navbar-nav li a:hover {
         text-decoration: none;
         padding-bottom: 0px; }
-  /* line 2016, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2016, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-biblioteka .navbar-nav {
     background: none;
     margin: 10px auto 5px;
     margin-left: -15px;
     padding: 0; }
-    /* line 2021, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2021, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .navbar-biblioteka .navbar-nav li {
       margin-bottom: 8px;
       height: 30px;
       float: left;
       margin-right: 3%; }
-      /* line 2027, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2027, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .navbar-biblioteka .navbar-nav li a {
         color: #898989; }
-      /* line 2030, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2030, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .navbar-biblioteka .navbar-nav li a:hover {
         background: none; }
-  /* line 2036, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2036, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: 20px;
     margin: 20px; }
-  /* line 2040, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2040, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .col-md-6 span {
     font-size: 14px; }
-  /* line 2043, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2043, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .blocks_exercise {
     width: 100%; }
-  /* line 2046, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2046, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies div .one_block {
     width: 45%;
     margin-right: 30px;
     height: auto; }
-  /* line 2053, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2053, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about_lepetun {
     width: 95%; }
-    /* line 2055, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2055, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .left {
       width: 30%; }
-    /* line 2058, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2058, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .right {
       width: 70%; }
-  /* line 2063, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2063, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block {
     margin-left: 15px;
     padding: 0; }
-    /* line 2067, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2067, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .right_block .help_3, .right_block .program_soc {
       margin-top: 15px; }
-    /* line 2071, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2071, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .right_block .row, .right_block .help_1 {
       width: 100%; }
-      /* line 2074, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2074, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .right_block .row .col-md-6, .right_block .row .col-md-4, .right_block .row .col-md-8, .right_block .help_1 .col-md-6, .right_block .help_1 .col-md-4, .right_block .help_1 .col-md-8 {
         float: left; }
-      /* line 2077, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2077, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .right_block .row .col-md-2, .right_block .help_1 .col-md-2 {
-        width: 16.666666666%;
+        width: 16.66667%;
         float: left; }
-        /* line 2080, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 2080, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .right_block .row .col-md-2 a, .right_block .help_1 .col-md-2 a {
           text-align: center; }
-        /* line 2083, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 2083, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .right_block .row .col-md-2 a:before, .right_block .help_1 .col-md-2 a:before {
           display: block;
           margin: 15px auto;
-          width: 100%; } }
+          width: 100%; }
+ }
 
 @media screen and (max-width: 960px) {
-  /* line 2095, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2095, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .dyktant.exercies_one {
     width: 100%; }
-  /* line 2098, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2098, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .market {
     width: 90%; }
-    /* line 2102, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2102, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .market .info .text {
       float: none; }
-    /* line 2105, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2105, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .market .info .sell {
       float: none;
       margin: 15px 0 0; }
-  /* line 2113, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2113, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   #scrollUp {
     bottom: 0px;
     right: 50%;
     margin-right: -22px; }
-  /* line 2118, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2118, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .icon-reg_in:before {
     font-size: 25px;
     margin: 0 25px 0 16px; }
-  /* line 2123, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2123, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .help_1, .program_soc {
     margin: 20px auto;
     width: 100%; }
-    /* line 2127, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2127, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .help_1 .col-md-6, .help_1 .col-md-4, .help_1 .col-md-8, .program_soc .col-md-6, .program_soc .col-md-4, .program_soc .col-md-8 {
       width: 50%;
       float: left; }
-    /* line 2131, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2131, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .help_1 .col-md-2, .program_soc .col-md-2 {
-      width: 16.666666666%;
+      width: 16.66667%;
       float: left; }
-      /* line 2134, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2134, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .help_1 .col-md-2 a, .program_soc .col-md-2 a {
         text-align: center; }
-      /* line 2137, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2137, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .help_1 .col-md-2 a:before, .program_soc .col-md-2 a:before {
         display: block;
         margin: 15px auto;
         width: 100%; }
-  /* line 2146, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2146, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-nav > li {
     margin-right: 2%; }
-  /* line 2149, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2149, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .container {
     width: 100%; }
-  /* line 2152, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2152, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .index_last_img {
     width: 100%; }
-    /* line 2154, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2154, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .index_last_img img {
       margin: 0 auto; }
-  /* line 2158, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2158, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last .block_one {
     width: 100%;
     margin-bottom: 20px; }
-  /* line 2162, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2162, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block {
     margin: 0 auto;
     width: 92%;
     float: none; }
-    /* line 2166, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2166, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .right_block .row {
       margin: 20px auto;
       width: 100%; }
-      /* line 2170, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2170, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .right_block .row .col-md-6, .right_block .row .col-md-4, .right_block .row .col-md-8 {
         width: 50%;
         float: left; }
-      /* line 2174, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2174, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .right_block .row .col-md-2 {
-        width: 16.666666666%;
+        width: 16.66667%;
         float: left; }
-        /* line 2177, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 2177, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .right_block .row .col-md-2 a {
           text-align: center; }
-        /* line 2180, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+        /* line 2180, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
         .right_block .row .col-md-2 a:before {
           display: block;
           margin: 25px auto;
           width: 100%;
           font-size: 20px; }
-    /* line 2188, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2188, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .right_block .help_3, .right_block .program_soc {
       margin-bottom: 0px; }
-    /* line 2191, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2191, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .right_block .help_4, .right_block .for_mobile, .right_block .user_info {
       margin-top: 0px; }
-  /* line 2195, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2195, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar {
     height: auto; }
-  /* line 2199, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2199, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-nav > li {
     margin-right: 2%; }
-  /* line 2202, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2202, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-nav {
     height: auto;
     border-radius: 3px; }
-  /* line 2207, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2207, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin: 20px;
     margin-right: 0px; }
-  /* line 2213, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2213, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .biblioteka .one_block {
     width: 45%;
     float: left;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+ }
 
 @media screen and (max-width: 748px) {
-  /* line 2225, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2225, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .navbar-form {
     width: 80%; }
-  /* line 2229, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2229, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .cloud {
     margin-top: 0px; }
-  /* line 2232, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2232, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .block_last {
     margin-bottom: 0px; }
-  /* line 2236, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2236, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .program_soc .download a, .program_soc .download div {
     line-height: 20px; }
-  /* line 2242, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2242, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .settings .icon-settings span {
     font-size: 12px; }
-  /* line 2245, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2245, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .settings .icon-settings:before {
     font-size: 22px; }
-  /* line 2249, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2249, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .row .col-md-4 {
     width: 35%;
     padding: 0; }
-  /* line 2253, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2253, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .row .col-md-8 {
     width: 65%;
     padding: 0; }
-  /* line 2257, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2257, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .register {
     width: 98%; }
-  /* line 2260, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2260, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .right_block .help_3 {
     margin-bottom: 0px; }
-  /* line 2263, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2263, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .top_block {
     height: auto;
     width: 100%;
     margin: 20px auto; }
-    /* line 2268, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2268, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .top_block li {
       padding: 0;
       height: 50px;
       border-bottom: none;
       margin-left: 20px;
       margin-right: 20px; }
-    /* line 2282, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2282, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .top_block .navbar-nav li.active, .top_block .navbar-nav li:hover {
       height: 50px; }
-    /* line 2287, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2287, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .top_block .navbar-form {
       margin: 15px auto;
       padding: 0;
       border: none; }
-  /* line 2297, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2297, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about .blocks .one_block {
     width: 100%;
     margin: 20px auto; }
-    /* line 2301, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2301, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about .blocks .one_block img {
       width: 50%;
       margin: 0 auto;
       display: block; }
-  /* line 2312, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2312, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .biblioteka_one .one {
     width: 100%;
     margin: 0 auto 20px; }
-    /* line 2316, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2316, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one img {
       width: 100%;
       margin: 0px auto; }
-    /* line 2321, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2321, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .soc {
       position: initial;
       width: 220px;
       margin: 20px auto; }
-      /* line 2326, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2326, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .biblioteka_one .one .soc a, .biblioteka_one .one .soc div {
         float: left;
         margin-right: 20px;
@@ -2248,119 +2292,124 @@ a.send_me {
         height: 50px;
         line-height: 50px;
         font-size: 25px; }
-    /* line 2335, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2335, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .info {
       margin-bottom: 20px; }
-    /* line 2339, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2339, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .neighbors {
       width: 170px;
       margin: 15px auto; }
-      /* line 2342, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2342, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .biblioteka_one .one .neighbors .prev_work, .biblioteka_one .one .neighbors .next_work {
         position: initial;
         float: left;
         margin-right: 30px; }
-    /* line 2351, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2351, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .biblioteka_one .one .neighbors:after {
       content: '';
       display: block;
       clear: both; }
-  /* line 2359, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2359, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .one_post {
     width: 100%;
     margin: 0px auto 35px; }
-    /* line 2362, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2362, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .row {
       margin-right: 0;
       width: 100%; }
-    /* line 2366, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2366, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .name {
       width: 100%;
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       -ms-border-radius: 3px;
       border-radius: 3px; }
-    /* line 2370, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2370, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .one_post .info {
       width: 100%;
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       -ms-border-radius: 3px;
       border-radius: 3px; }
-      /* line 2374, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+      /* line 2374, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
       .one_post .info img {
         margin: 0 auto;
         width: 100%; }
-  /* line 2381, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2381, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies div .one_block {
     width: 80%;
     margin: 20px auto 30px;
     float: none; }
-  /* line 2389, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2389, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .variantu {
     width: 95%; }
-    /* line 2392, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2392, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .variantu .one .radio:not(checked) + label {
       width: 100%;
       max-width: 100%; }
-  /* line 2398, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2398, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .quetion {
     font-size: 24px; }
-  /* line 2402, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2402, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .number_step {
     width: 95%;
     margin: 20px auto; }
-  /* line 2407, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2407, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .answer_right {
     width: 100%; }
-    /* line 2410, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2410, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_right img {
       width: 35%; }
-    /* line 2413, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2413, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_right .next {
       right: 20px; }
-  /* line 2418, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2418, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .answer_wrong {
     width: 95%; }
-    /* line 2420, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2420, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_wrong .left {
       width: 25%; }
-    /* line 2423, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2423, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .answer_wrong .right {
       width: 75%; }
-  /* line 2429, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2429, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .end_exercise .buttons {
     width: 100%; }
-    /* line 2432, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2432, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .end_exercise .buttons .yet, .exercies_one .end_exercise .buttons .next {
       width: 44%;
       font-size: 18px;
       height: 60px; }
-  /* line 2439, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2439, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .end_exercise .man {
     width: 60%; }
-  /* line 2444, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2444, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one h1 {
     text-align: center; }
-  /* line 2447, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+  /* line 2447, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .exercies_one .number_step {
     margin: 25px auto;
     width: 100%; }
-    /* line 2451, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2451, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .exercies_one .number_step li {
       width: 25px;
       height: 25px;
       font-size: 14px;
       line-height: 25px;
       margin-right: 4px; }
-  /* line 2461, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+
+  /* line 2461, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
   .about_lepetun {
     width: 95%; }
-    /* line 2463, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2463, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .left {
       width: 85px; }
-    /* line 2466, C:/Users/sashklym/Dropbox/webrains/templates_mova/scss/app.scss */
+    /* line 2466, C:/Users/Halyna/Documents/sashklym/template_mova/scss/app.scss */
     .about_lepetun .right {
-      width: 70%; } }
+      width: 70%; }
+ }
 
 /*# sourceMappingURL=app.css.map */
