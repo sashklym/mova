@@ -119,7 +119,7 @@ border-radius: 3px;
 margin-left: 25px;
 
     li{
-    margin-right: 34px;
+    margin-right: 33px;
     }
 }
 
@@ -1258,6 +1258,14 @@ line-height: 110%;
               opacity: 0;
               transition: all 0.2s;
             }
+            .radio.right + label:after {
+                background: #7cc576;
+                opacity: 1;
+            }
+            .radio.mistake + label:after {
+                background: #D9534F;
+                opacity: 1;
+            }
             .radio:checked + label:after {
                 opacity: 1;
             }
@@ -1820,6 +1828,19 @@ background-color: #d1d3d4;
         color: #707070;
         font: 700 24px / 28px PragmaticaLightC;
     }
+
+    .info {
+        margin-bottom: 0px;
+        .text{
+            font-style: italic;
+            font-size: 15px;
+
+            span{
+                font-style: italic;
+                font-size: 15px;
+            }
+        }
+    }
     .body_text{
         display: none;
         background-color: #ffffff;
@@ -1829,7 +1850,6 @@ background-color: #d1d3d4;
         font: 400 20px / 28px PragmaticaLightC;
         z-index: 1000;
         position: relative;
-
 
         span{
             position: relative;
@@ -1854,7 +1874,7 @@ background-color: #d1d3d4;
         }
     }
 
-    #detect_exercise, .yet {
+    #detect_exercise, .yet, #detect_exercise_words {
         padding: 0 10px;
         height: 40px;
         background-color: #4dbeee;
@@ -1871,7 +1891,7 @@ background-color: #d1d3d4;
         cursor: pointer;
 
     }
-    #detect_exercise:hover, .yet:hover{
+    #detect_exercise:hover, .yet:hover, #detect_exercise_words:hover{
         background: #009edb;
     }
 
@@ -2094,6 +2114,13 @@ background-color: #d1d3d4;
 @media screen and (max-width: 960px){
     .dyktant.exercies_one {
         width: 100%;
+
+        .body_text{
+
+        }
+    }
+    .dyktant.exercies_one .body_text .explanation{
+        width: 240px;
     }
     .market {
         width: 90%;

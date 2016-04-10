@@ -14,25 +14,34 @@ new WOW().init();
 
 });
 
-		$(document).keydown(function(e){
-			if (e.which == 37) { // 37 is the left arrow key code.
-				//alert('left');
-				var id = ($('.prev_work div').attr('data-id'));
-				//console.log(id);
-				if(id !== undefined){
-					show_picters.show_big(id);
-					//alert(id);
-				}
+jQuery.extend(jQuery.expr[':'], {
+  focus: "a == document.activeElement"
+});
 
-			};
-			if (e.which == 39) { // 39 is the right arrow key code.
-				var id = ($('.next_work div').attr('data-id'));
-				//console.log(id);
-				if(id !== undefined){
-					show_picters.show_big(id);
-					//alert(id);
-				}
-			};
+		$(document).keydown(function(e){
+            if ($("#comment-editor").is(":focus")) {
+
+            }
+            else{
+                if (e.which == 37) { // 37 is the left arrow key code.
+                    //alert('left');
+                    var id = ($('.prev_work div').attr('data-id'));
+                    //console.log(id);
+                    if(id !== undefined){
+                        show_picters.show_big(id);
+                        //alert(id);
+                    }
+
+                };
+                if (e.which == 39) { // 39 is the right arrow key code.
+                    var id = ($('.next_work div').attr('data-id'));
+                    //console.log(id);
+                    if(id !== undefined){
+                        show_picters.show_big(id);
+                        //alert(id);
+                    }
+                };
+            }
 
 		});
 
@@ -145,12 +154,19 @@ var show_picters = {
 
 function fb_share() {
 		var data_url = 'http://ukr-mova.in.ua/'+$('#data_input').attr('data_url');
+        var name = $('#data_input').attr('data_title');
+        var picture = 'http://ukr-mova.in.ua/'+$('#data_input').attr('data_img');
 		FB.ui({
 			method: 'feed',
-			link: data_url
+			link: data_url,
+            name: name,
+            //caption: 'UKR-MOVA.IN.UA | Мова – ДНК націЇ',
+            description: $('#data_input').attr('data_descript'),
+            picture: picture
 		}, function(response){
 		//console.log('url', data_url);
 		  if (response != null){
+              //console.info(JSON.stringify(response));
 			$.ajax({
 				url: '/ajax',
 				type: "POST",

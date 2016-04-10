@@ -46,7 +46,7 @@ var exersice = {
                     },
                     success: function (answer){
                         //alert(answer);
-                        if(answer == "У вас не достатня кількість смаколиків <br>для проходження вправи <br><a class='send_me' href='/lepetun-smakolyky'>Про смаколики</a>"){
+                        if(answer === "У вас недостатня кількість смаколиків <br>для проходження вправи <br><a class='send_me' href='/lepetun-smakolyky'>Про смаколики</a>"){
                             $('.quetion').html(answer);
                             exersice.ajaxPreload(jQuery('.exercies_one'),false);
                         }
@@ -54,6 +54,7 @@ var exersice = {
                             exersice.ajaxPreload(jQuery('.exercies_one'),true);
                             index_now = 0;
                             var myObject = eval('(' + answer + ')');
+                            //console.info(myObject);
                             for (i in myObject){
                                num [i] = myObject[i]["MIGX_id"];
                                questions [i] = myObject[i]["questions"];
@@ -152,11 +153,18 @@ var exersice = {
         $('.info').html('');
         if($('input[name=radio]:checked').length > 0){
             $('#verify').hide();
-            num_answer = $('input[name=radio]:checked').val();
-            right_answer = correct[index_now];
+            var num_answer = $('input[name=radio]:checked').val();
+            var right_answer = correct[index_now];
             if(num_answer == right_answer){
                 $('.answer_right').fadeIn();
                 $('#step'+index_now+'').addClass('right_step');
+
+                $( ".radio").each(function(i){
+                    if( i == num_answer){
+                        $(this).addClass('right');
+                    }
+                });
+
                 $('#step'+index_now+'').removeClass('active_step');
                 sum_correct ++;
             }
@@ -164,22 +172,44 @@ var exersice = {
                 $('.answer_wrong').fadeIn(500);
                 $('.info').html(explanation[index_now]);
                 $('#step'+index_now+'').removeClass('active_step');
+
+                $( ".radio").each(function(i){
+                    console.info(i, num_answer);
+                    if( i == num_answer){
+                        $(this).addClass('mistake');
+                    }
+                    else if( i == correct[index_now] ){
+                        $(this).addClass('right');
+                    }
+                });
+
                 $('#step'+index_now+'').addClass('wrong_step');
             }
         }
         else{
-            alert("Виберіть один із варіантів!")
+            AjaxForm.Message.error("Виберіть один із варіантів!");
+//            alert("Виберіть один із варіантів !!!");
         }
 
     },
 
     //------------------ show result ------------------------
     show_result: function(){
+        var nowDate = new Date();
         var id = $("#id-resourse").attr("data-id");
+
+        if (nowDate.getMonth() + 1 < 10) {
+            var nowMonth = '0' + (nowDate.getMonth() + 1);
+        } else {
+            var nowMonth = (nowDate.getMonth() + 1);
+        }
+
+        var datetimenow = nowDate.getFullYear()+'-'+nowMonth+'-'+nowDate.getDate()+' '+nowDate.getHours()+':'+nowDate.getMinutes()+':'+nowDate.getSeconds();
+        console.warn(datetimenow);
         $.ajax({
             url: '/ajax',
             type: "POST",
-            data: { action: 'exercies_one_verify', points: sum_correct, id:id  },
+            data: { action: 'exercies_one_verify', points: sum_correct, id:id, complete_date: datetimenow },
             dataType: "text",
             timeout: 30000,
             cache:false,
@@ -282,7 +312,7 @@ function fb_share_exer() {
 			method: 'feed',
 			link: data_url,
             name: "Мій результат: "+sum_correct+"/"+num.length+". Перевір себе!",
-            caption: 'UKR-MOVA.IN.UA | Мова – ДНК націЇ',
+            caption: 'UKR-MOVA.IN.UA',
             description: $('#data_input').attr('data_descript'),
             picture: 'http://ukr-mova.in.ua/'+$('#data_input').attr('data_img')
 		}, function(response){

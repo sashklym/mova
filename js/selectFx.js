@@ -115,7 +115,9 @@
 				optclass = 'class="' + classes + '" ';
 			}
 
-			return '<li ' + optclass + link + ' data-option data-value="' + el.value + '"><span>' + el.textContent + '</span></li>';
+            //console.info('<li ' + optclass + link + ' data-option data-value="' + el.value + '"><span>' + el.value + '</span></li>');
+
+			return '<li ' + optclass + link + ' data-option data-value="' + el.value + '"><span>' + el.value + '</span></li>';
 		};
 
 		[].slice.call( this.el.children ).forEach( function(el) {
@@ -243,14 +245,36 @@
 		// remove focus class if any..
 		this._removeFocus();
 
+        //console.warn($(this.selOpts[ this.current ]).attr('data-value'));
+
 		if( this._isOpen() ) {
 			if( this.current !== -1 ) {
 				// update placeholder text
-				this.selPlaceholder.textContent = this.selOpts[ this.current ].textContent;
+				this.selPlaceholder.textContent = $('short', this.selOpts[ this.current ]).text();
+                $(this.selPlaceholder).css('background-color','#CCC');
+
 			}
 			classie.remove( this.selEl, 'cs-active' );
 		}
 		else {
+            //console.info($(this.selEl));
+            //console.info($('.cs-options', this.selEl).width(), $(this.selEl).offset().left, $(window).width());
+            $('.cs-options', this.selEl).css('right',0);
+
+            var _wWindow = $(window).width();
+            var _wLeftOf = $(this.selEl).offset().left;
+            var _wElement = 180;
+
+            if(_wWindow - _wLeftOf > _wElement){
+                $('.cs-options', this.selEl).css('left',0);
+            }
+            else if(_wLeftOf > _wElement){
+                $('.cs-options', this.selEl).css('right',0);
+            }
+            else{
+                $('.cs-options', this.selEl).css('left', -(_wLeftOf+10) );
+            }
+
 			if( this.hasDefaultPlaceholder && this.options.stickyPlaceholder ) {
 				// everytime we open we wanna see the default placeholder text
 				this.selPlaceholder.textContent = this.selectedOpt.textContent;
@@ -273,10 +297,13 @@
 		var opt = this.selOpts[ this.current ];
 
 		// update current selected value
-		this.selPlaceholder.textContent = opt.textContent;
+		//this.selPlaceholder.textContent = opt.textContent;
+		this.selPlaceholder.textContent = opt.getAttribute( 'data-value' );
 
 		// change native select element´s value
 		this.el.value = opt.getAttribute( 'data-value' );
+
+        //console.info(opt.getAttribute( 'data-value' ))
 
 		// remove class cs-selected from old selected option and add it to current selected option
 		var oldOpt = this.selEl.querySelector( 'li.cs-selected' );
