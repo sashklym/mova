@@ -120,6 +120,9 @@ margin-left: 25px;
 
     li{
     margin-right: 33px;
+        a{
+            font-size: 22px!important;
+        }
     }
 }
 
@@ -610,7 +613,7 @@ padding-top: 5px;
             a{
                 color: #898989;
                 font-weight: bold;
-                font-size: 19px;
+                font-size: 19px!important;
                 line-height: 100%;
             }
             a:hover{
@@ -664,7 +667,7 @@ padding-top: 5px;
     }
 
     h2{
-        font-size: 36px;
+        font-size: 26px;
         font-family: 'PragmaticaLightC';
         margin: 0px;
         padding: 0px;
@@ -674,7 +677,7 @@ padding-top: 5px;
 
         a{
             color: #707070;
-            font-size: 36px;
+            font-size: 26px;
         }
         a:hover{
             text-decoration: none;
